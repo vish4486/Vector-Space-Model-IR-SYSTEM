@@ -1,8 +1,15 @@
-The challenges of quantum computing and its implications in modern society.
-Emerging trends in climate change and its implications in modern society.
-This paper explores data science and its implications in modern society.
-The challenges of biotechnology and its implications in modern society.
-An in-depth look at data science and its implications in modern society.
-Potential risks of data science and its implications in modern society.
-Applications of AI in healthcare and its implications in modern society.
-This paper explores blockchain and its implications in modern society.
+free-convection magnetohydrodynamic flow past a porous flat plate .
+pau-chang lu
+graduate assistant, department of mechanical engineering, case
+institute of technology, cleveland, ohio
+free-convection magnetohydrodynamic flow past a porous flat plate .
+the incompressible flow of an electrically conducting fluid past a
+porous plate with constant suction velocity in the presence of a
+transverse uniform strength has recently been investigated by gupta .  in
+this note, the problem is generalized to take into account the effect of
+free convection, when a body force is acting parallel to the wall .  the
+fluid is assumed to be semi-incompressible as usual .  in addition to
+the obvious practical significance, this problem is also interesting in
+the sense that it provides another exact solution of the
+magnetohydrodynamic equations, since the only electromagnetic assumptions involved
+are constant properties and freedom from excessive charges .

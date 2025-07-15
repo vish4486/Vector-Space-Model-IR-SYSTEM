@@ -1,0 +1,7 @@
+doc840.txt
+doc1045.txt
+doc763.txt
+doc838.txt
+doc839.txt
+doc841.txt
+doc955.txt

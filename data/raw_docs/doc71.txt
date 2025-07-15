@@ -1,8 +1,14 @@
-The societal impact of space exploration and its implications in modern society.
-The challenges of renewable energy and its implications in modern society.
-The challenges of renewable energy and its implications in modern society.
-Emerging trends in blockchain and its implications in modern society.
-The challenges of climate change and its implications in modern society.
-Future directions for biotechnology and its implications in modern society.
-Applications of renewable energy and its implications in modern society.
-Future directions for quantum computing and its implications in modern society.
+laminar boundary layer behind shock advancing into
+stationary fluid .
+mirels,h.
+naca tn.3401, 1955.
+laminar boundary layer behind shock advancing into
+stationary fluid .
+  a study was made of the laminar compressible boundary layer induced
+by a shock wave advancing into a stationary fluid bounded by a wall .
+for weak shock waves, the boundary layer is identical with that which
+occurs when an infinite wall is impulsively set into uniform motion
+shocks .
+  velocity and temperature profiles, recovery factors, and
+skin-friction and heat-transfer coefficients are tabulated for a wide range
+of shock strengths .

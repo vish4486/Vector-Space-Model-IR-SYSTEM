@@ -75,7 +75,16 @@ def main():
 
     # === Generate and Save Static Quality Scores ===
     print("Generating static quality scores...")
-    static_scores = {doc: round(random.uniform(0, 1), 4) for doc in tfidf_vectors}
+    # Higher doc numbers get lower scores (simulate "older" or "less important")
+    static_scores = {}
+    for doc in tfidf_vectors:
+        try:
+            doc_num = int(doc[3:-4])  # extract number from "docXXX.txt"
+            score = 1 - (doc_num / 1400)  # normalize: 1 for doc1.txt → ~0 for doc1400.txt
+            static_scores[doc] = round(score, 4)
+        except:
+            static_scores[doc] = 0.5  # fallback if filename is not in expected format
+
     indexer.save_json(static_scores, "index/static_quality_scores.json")
     print("Static quality scores saved to index/static_quality_scores.json")
 

@@ -1,8 +1,21 @@
-Potential risks of climate change and its implications in modern society.
-Potential risks of cybersecurity and its implications in modern society.
-Case studies on data science and its implications in modern society.
-The societal impact of quantum computing and its implications in modern society.
-The challenges of climate change and its implications in modern society.
-An in-depth look at AI in healthcare and its implications in modern society.
-Potential risks of data science and its implications in modern society.
-This paper explores AI in healthcare and its implications in modern society.
+one-dimensional transient heat flow in a multilayer
+slab .
+campbell,w.f.
+j. ae. scs. 25, 1958, 340.
+one-dimensional transient heat flow in a multilayer
+slab .
+  in a recent contribution to the readers'
+forum wassermann gave analytic
+solutions for the temperature in a double
+layer slab, with a triangular heat
+rate input at one face, insulated at the other,
+and with no thermal resistance
+at the interface .  his solutions were for the
+three particular cases..
+i propose here to give the general solution
+to this problem, to indicate
+briefly how it is obtained using the method of
+reference 2, and to point out
+that the solutions given by wassermann are
+incomplete for times longer
+than the duration of the heat input .

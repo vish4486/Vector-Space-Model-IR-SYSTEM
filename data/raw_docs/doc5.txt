@@ -1,8 +1,12 @@
-Historical development of financial technology and its implications in modern society.
-This paper explores space exploration and its implications in modern society.
-Potential risks of biotechnology and its implications in modern society.
-Potential risks of blockchain and its implications in modern society.
-The societal impact of blockchain and its implications in modern society.
-This paper explores cybersecurity and its implications in modern society.
-This paper explores AI in healthcare and its implications in modern society.
-Emerging trends in AI in healthcare and its implications in modern society.
+one-dimensional transient heat conduction into a double-layer
+slab subjected to a linear heat input for a small time
+internal .
+wasserman,b.
+j. ae. scs. 24, 1957, 924.
+one-dimensional transient heat conduction into a double-layer
+slab subjected to a linear heat input for a small time
+internal .
+  analytic solutions are presented for the transient heat
+conduction in composite slabs exposed at one surface to a
+triangular heat rate .  this type of heating rate may occur, for
+example, during aerodynamic heating .

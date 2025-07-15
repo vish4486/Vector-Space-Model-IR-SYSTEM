@@ -1,0 +1,9 @@
+doc40.txt
+doc41.txt
+doc74.txt
+doc207.txt
+doc272.txt
+doc418.txt
+doc170.txt
+doc1264.txt
+doc504.txt

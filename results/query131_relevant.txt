@@ -1,0 +1,9 @@
+doc1014.txt
+doc1020.txt
+doc1013.txt
+doc1016.txt
+doc1017.txt
+doc1012.txt
+doc1018.txt
+doc1019.txt
+doc950.txt

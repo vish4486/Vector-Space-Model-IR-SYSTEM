@@ -1,0 +1,8 @@
+doc32.txt
+doc67.txt
+doc715.txt
+doc717.txt
+doc716.txt
+doc499.txt
+doc1379.txt
+doc639.txt

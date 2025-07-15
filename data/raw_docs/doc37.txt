@@ -1,8 +1,22 @@
-Applications of space exploration and its implications in modern society.
-Emerging trends in cybersecurity and its implications in modern society.
-Applications of cybersecurity and its implications in modern society.
-Emerging trends in AI in healthcare and its implications in modern society.
-The societal impact of blockchain and its implications in modern society.
-An in-depth look at quantum computing and its implications in modern society.
-Historical development of biotechnology and its implications in modern society.
-This paper explores biotechnology and its implications in modern society.
+a new technique for investigating heat transfer and
+surface phenomena under hypersonic flow conditions .
+ferri,a. and libby,p.a.
+j. ae. scs. 24, 1957, 464.
+a new technique for investigating heat transfer and
+surface phenomena under hypersonic flow conditions .
+on the forebody of many practically interesting hypersonic
+vehicles, there is little interaction between the inviscid
+flow field and the boundary layer .  therefore, inviscid flow theory
+can be used to determine, independent of surface phenomena,
+the physically interesting quantities such as shock shape, shock
+detachment distance, sonic line shape, and pressure distribution .
+furthermore, the pressure distribution so determined can then be
+used for the study of heat transfer, materials behavior, and other
+surface phenomena .  thus, for these bodies, the prandtl
+boundary-layer concept can be utilized for the calculation of both the
+inviscid flow and the boundary-layer behavior .
+  it is the purpose of this note to point out that this concept can
+also be applied experimentally in order to provide, in
+conjunction with a conventional hypersonic wind-tunnel air supply, a
+means for investigating hypersonic heat transfer and surface
+phenomena under conditions of flight reynolds numbers .

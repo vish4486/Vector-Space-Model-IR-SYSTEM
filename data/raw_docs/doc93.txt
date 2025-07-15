@@ -1,8 +1,13 @@
-Case studies on space exploration and its implications in modern society.
-Applications of financial technology and its implications in modern society.
-An in-depth look at renewable energy and its implications in modern society.
-Applications of AI in healthcare and its implications in modern society.
-The societal impact of biotechnology and its implications in modern society.
-Historical development of AI in healthcare and its implications in modern society.
-Emerging trends in space exploration and its implications in modern society.
-Emerging trends in climate change and its implications in modern society.
+the supersonic blunt body problem - review and extensions .
+van dyke,m.d.
+j. ae. scs. 25, 1958, 485.
+the supersonic blunt body problem - review and extensions .
+  a survey of existing analytical treatments of the supersonic or
+hypersonic blunt-body problem indicates that none is adequate
+for predicting the details of the flow field .  reasons are given for
+the failure of various plausible approximations .  a numerical
+method, which is simpler than others proposed, is set forth for
+solving the full inviscid equations using a medium-sized electronic
+computer .  results are shown from a number of solutions for
+bodies that support detached shock waves described by conic
+sections .

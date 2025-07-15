@@ -1,0 +1,6 @@
+doc860.txt
+doc861.txt
+doc606.txt
+doc980.txt
+doc12.txt
+doc766.txt

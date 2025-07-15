@@ -1,0 +1,5 @@
+doc717.txt
+doc719.txt
+doc1001.txt
+doc1379.txt
+doc639.txt

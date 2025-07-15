@@ -1,0 +1,9 @@
+doc259.txt
+doc405.txt
+doc302.txt
+doc436.txt
+doc437.txt
+doc438.txt
+doc998.txt
+doc1011.txt
+doc493.txt

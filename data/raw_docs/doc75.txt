@@ -1,8 +1,14 @@
-This paper explores data science and its implications in modern society.
-Future directions for renewable energy and its implications in modern society.
-The challenges of quantum computing and its implications in modern society.
-Applications of biotechnology and its implications in modern society.
-The societal impact of space exploration and its implications in modern society.
-Historical development of data science and its implications in modern society.
-Future directions for climate change and its implications in modern society.
-Future directions for cybersecurity and its implications in modern society.
+studies of structural failure due to acoustic loading .
+hess,n.w.
+naca tn.4050, 1957.
+studies of structural failure due to acoustic loading .
+  some discussion of the acoustic fatigue problem of aircraft
+structures is given along with data pertaining to the acoustic inputs from
+some powerplants in common use .  comparisons are given for results of
+some fatigue tests of flat panels and cantilever beams exposed to both
+random- and discrete-type inputs .  in this regard it appears that both
+the stress level of the test and the type of model are significant,.
+hence, no generalization can be made at this time .  with regard to
+increasing the fatigue life, it was noted that increased stiffening of
+a panel due to curvature and pressure differential is particularly
+beneficial .

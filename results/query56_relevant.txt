@@ -1,0 +1,11 @@
+doc380.txt
+doc749.txt
+doc1339.txt
+doc14.txt
+doc705.txt
+doc779.txt
+doc780.txt
+doc379.txt
+doc643.txt
+doc686.txt
+doc753.txt

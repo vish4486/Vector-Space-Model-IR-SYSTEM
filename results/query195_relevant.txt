@@ -1,0 +1,4 @@
+doc739.txt
+doc742.txt
+doc743.txt
+doc642.txt

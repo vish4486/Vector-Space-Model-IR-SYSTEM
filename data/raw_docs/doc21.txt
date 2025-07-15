@@ -1,8 +1,9 @@
-Historical development of AI in healthcare and its implications in modern society.
-The societal impact of blockchain and its implications in modern society.
-Case studies on blockchain and its implications in modern society.
-The challenges of data science and its implications in modern society.
-This paper explores blockchain and its implications in modern society.
-Historical development of cybersecurity and its implications in modern society.
-Potential risks of space exploration and its implications in modern society.
-An in-depth look at renewable energy and its implications in modern society.
+on heat transfer in slip flow .
+stephen h. maslen
+lewis flight propulsion laboratory, naca, cleveland, ohio
+on heat transfer in slip flow .
+a number of authors have considered the effect of slip on the heat
+transfer and skin friction in a laminar boundary layer over a flat plate .
+reference 1 considers this by a perturbation on the usual laminar
+boundary-layer analysis while some other studies.dash e.g., reference
+the impulsive motion of an infinite plate .

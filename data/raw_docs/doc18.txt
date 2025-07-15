@@ -1,8 +1,15 @@
-An in-depth look at AI in healthcare and its implications in modern society.
-The societal impact of climate change and its implications in modern society.
-Emerging trends in quantum computing and its implications in modern society.
-Case studies on biotechnology and its implications in modern society.
-An in-depth look at data science and its implications in modern society.
-Potential risks of data science and its implications in modern society.
-Case studies on quantum computing and its implications in modern society.
-Case studies on cybersecurity and its implications in modern society.
+the flow field in the diffuser of a radial compressor .
+rhyming,i.l.
+j. ae. scs. 27, 1960, 798.
+the flow field in the diffuser of a radial compressor .
+this note discusses the two-dimensional diffuser flow field
+in a radial compressor outside the impeller wheel .  it is
+assumed that the diffuser has guide vanes arranged in a circular
+row at a radius .  the impeller wheel has the radius (see
+fig. 1) .  the flow in the diffuser starts at the circle with the
+radius .  the velocity components, and in the r and
+directions of the velocity vector on this circle are prescribed
+together with the thermal state of the gas .  the flow so prescribed
+on the radius will, if no disturbances are present (i.e., no
+boundary conditions in the flow other than zero velocity at
+infinity are to be fulfilled), develop in a spiral flow .

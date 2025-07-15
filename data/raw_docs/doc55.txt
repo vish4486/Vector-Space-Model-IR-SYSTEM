@@ -1,8 +1,20 @@
-Potential risks of cybersecurity and its implications in modern society.
-Case studies on climate change and its implications in modern society.
-An in-depth look at cybersecurity and its implications in modern society.
-This paper explores cybersecurity and its implications in modern society.
-Future directions for cybersecurity and its implications in modern society.
-The societal impact of AI in healthcare and its implications in modern society.
-Applications of biotechnology and its implications in modern society.
-The societal impact of cybersecurity and its implications in modern society.
+separation, stability and other properties of compressible
+laminar boundary layer with pressure gradient and heat
+transfer .
+morduchow,m. and grape,r.g.
+naca tn.3296, 1955.
+separation, stability and other properties of compressible
+laminar boundary layer with pressure gradient and heat
+transfer .
+  a theoretical study is made of the effect of pressure gradient,
+wall temperature, and mach number on laminar boundary-layer
+characteristics and, in particular, on the skin-friction and heat-transfer
+coefficients, on the separation point in an adverse pressure gradient,
+on the wall temperature required for complete stabilization of the
+laminar boundary layer, and on the minimum critical reynolds number for
+laminar stability .  the prandtl number is assumed to be unity and the
+coefficient of viscosity is assumed to be proportional to the
+temperature, with a factor arising from the sutherland relation .  a simple and
+accurate method of locating the separation point in a compressible flow
+with heat transfer is developed .  numerical examples to illustrate the
+results in detail are given throughout .

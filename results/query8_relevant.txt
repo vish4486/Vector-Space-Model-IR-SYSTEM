@@ -1,0 +1,12 @@
+doc48.txt
+doc122.txt
+doc20.txt
+doc58.txt
+doc196.txt
+doc354.txt
+doc360.txt
+doc197.txt
+doc999.txt
+doc1112.txt
+doc1005.txt
+doc492.txt

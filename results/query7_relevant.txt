@@ -1,0 +1,6 @@
+doc20.txt
+doc56.txt
+doc57.txt
+doc58.txt
+doc19.txt
+doc492.txt

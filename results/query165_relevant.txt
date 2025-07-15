@@ -1,0 +1,3 @@
+doc71.txt
+doc72.txt
+doc504.txt

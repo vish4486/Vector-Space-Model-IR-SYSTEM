@@ -1,8 +1,19 @@
-This paper explores renewable energy and its implications in modern society.
-Potential risks of blockchain and its implications in modern society.
-Potential risks of space exploration and its implications in modern society.
-Emerging trends in biotechnology and its implications in modern society.
-An in-depth look at data science and its implications in modern society.
-This paper explores data science and its implications in modern society.
-Future directions for quantum computing and its implications in modern society.
-This paper explores quantum computing and its implications in modern society.
+on flow of electrically conducting fluids over a flat
+plate in the presence of a transverse magnetic field .
+rossow,v.j.
+naca tn.3971, 1957.
+on flow of electrically conducting fluids over a flat
+plate in the presence of a transverse magnetic field .
+  the use of a magnetic field to control the motion of electrically
+conducting fluids is studied .  the boundary-layer solutions are found
+for flow over a flat plate when the magnetic field is fixed relative to
+the plate or to the fluid .  the
+equations are integrated numerically for
+the effect of the transverse magnetic
+field on the velocity and temperature
+profiles, and hence, the skin friction and rate of heat transfer .
+  it is concluded that the skin friction and the heat-transfer rate are
+reduced when the transverse magnetic
+field is fixed relative to the plate
+and increased when fixed relative to the fluid .  the total drag is
+increased in all the cases studied .

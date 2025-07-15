@@ -1,8 +1,7 @@
-An in-depth look at blockchain and its implications in modern society.
-Emerging trends in climate change and its implications in modern society.
-An in-depth look at financial technology and its implications in modern society.
-Future directions for financial technology and its implications in modern society.
-Future directions for blockchain and its implications in modern society.
-Potential risks of climate change and its implications in modern society.
-Applications of biotechnology and its implications in modern society.
-Future directions for biotechnology and its implications in modern society.
+the boundary layer in simple shear flow past a flat plate .
+m. b. glauert
+department of mathematics, university of manchester, manchester,
+england
+the boundary layer in simple shear flow past a flat plate .
+the boundary-layer equations are presented for steady
+incompressible flow with no pressure gradient .

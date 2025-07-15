@@ -1,8 +1,17 @@
-Historical development of climate change and its implications in modern society.
-This paper explores space exploration and its implications in modern society.
-Applications of AI in healthcare and its implications in modern society.
-Applications of biotechnology and its implications in modern society.
-Historical development of renewable energy and its implications in modern society.
-This paper explores data science and its implications in modern society.
-The societal impact of quantum computing and its implications in modern society.
-Future directions for blockchain and its implications in modern society.
+approximate solutions of the incompressible laminar
+boundary layer equations for a plate in shear flow .
+yen,k.t.
+j. ae. scs. 22, 1955, 728.
+approximate solutions of the incompressible laminar
+boundary layer equations for a plate in shear flow .
+  the two-dimensional steady boundary-layer
+problem for a flat plate in a
+shear flow of incompressible fluid is considered .
+solutions for the boundary-
+layer thickness, skin friction, and the velocity
+distribution in the boundary
+layer are obtained by the karman-pohlhausen
+technique .  comparison with
+the boundary layer of a uniform flow has also
+been made to show the effect of
+vorticity .

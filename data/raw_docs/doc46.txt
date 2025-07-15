@@ -1,8 +1,11 @@
-Future directions for data science and its implications in modern society.
-The challenges of renewable energy and its implications in modern society.
-An in-depth look at renewable energy and its implications in modern society.
-This paper explores financial technology and its implications in modern society.
-Applications of quantum computing and its implications in modern society.
-Historical development of financial technology and its implications in modern society.
-Potential risks of financial technology and its implications in modern society.
-Emerging trends in quantum computing and its implications in modern society.
+some comments on the inversion of certain large matrices .
+bertram klein
+convair, a division of general dynamics corp., san diego, calif.
+some comments on the inversion of certain large matrices .
+the subject of matric structural analysis has been treated in two
+recently published papers in the journal .  the authors of these papers
+have made a number of statements about the inversion of certain large
+matrices .  it is the purpose of this note to bring to the attention of
+the reader certain facts that shed new light on this important problem .
+it is shown here that the situation is not as hopeless as the above-
+mentioned authors intimate .

@@ -1,0 +1,10 @@
+doc395.txt
+doc866.txt
+doc869.txt
+doc865.txt
+doc868.txt
+doc870.txt
+doc867.txt
+doc872.txt
+doc873.txt
+doc767.txt

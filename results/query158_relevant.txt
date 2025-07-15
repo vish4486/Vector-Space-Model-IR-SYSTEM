@@ -1,0 +1,9 @@
+doc302.txt
+doc1011.txt
+doc552.txt
+doc998.txt
+doc1009.txt
+doc1010.txt
+doc273.txt
+doc556.txt
+doc1006.txt
