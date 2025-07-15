@@ -9,6 +9,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src.preprocessing import preprocess_text
 from src import spell_correction
 from src.utils import cosine_similarity
+from src import relevance_feedback
 
 # ==== Load Index Files ====
 
@@ -125,6 +126,28 @@ def rank_with_impact_ordering(query_vector, top_k=5):
     return ranked[:top_k]
 
 
+#====MANUAL RELEVANCE FEEDBACK====REQUIRES KNOWN RELEVANT DOCS#
+def search_with_feedback(query_vector, relevant_docs, top_k=5):
+    """Use Rocchio relevance feedback to refine query and return new ranking"""
+    updated_query_vector = relevance_feedback.rocchio_feedback(query_vector, relevant_docs, DOC_VECTORS)
+    return rank_documents(updated_query_vector, DOC_VECTORS, top_k)
+
+
+#====PSEUDO RELEVANCE FEEDBACK====#
+def search_with_pseudo_feedback(query_vector, top_k=5, pseudo_k=3):
+    """Assume top pseudo_k docs are relevant and apply Rocchio"""
+    # Step 1: Initial retrieval
+    initial_results = rank_documents(query_vector, DOC_VECTORS, top_k=pseudo_k)
+    pseudo_relevant_docs = [doc for doc, score in initial_results if score > 0]
+
+    # Step 2: Refine query
+    updated_query_vector = relevance_feedback.rocchio_feedback(query_vector, pseudo_relevant_docs, DOC_VECTORS)
+
+    # Step 3: Rank again using updated query
+    return rank_documents(updated_query_vector, DOC_VECTORS, top_k)
+
+
+
 # ==== Main Search Dispatcher ====
 
 def search(query, top_k=5, method="basic"):
@@ -146,5 +169,21 @@ def search(query, top_k=5, method="basic"):
         return rank_with_static_quality(query_vector, DOC_VECTORS, STATIC_SCORES, top_k=top_k)
     elif method == "impact":
         return rank_with_impact_ordering(query_vector, top_k)
+    elif method == "feedback":
+        top_results = rank_documents(query_vector, DOC_VECTORS, top_k)
+        print(f"\nTop {top_k} initial results using 'feedback' retrieval:")
+        for rank, (doc_name, score) in enumerate(top_results, 1):
+            print(f"{rank}. {doc_name} (Score: {score:.4f})")
+
+        print("\nMark relevant documents (comma-separated list of doc IDs, e.g., doc2.txt,doc5.txt):")
+        feedback_input = input("Relevant documents: ").strip()
+        relevant_docs = [doc.strip() for doc in feedback_input.split(",") if doc.strip() in dict(top_results)]
+        if not relevant_docs:
+            print("No relevant documents selected. Using original results.")
+            return top_results
+
+        return search_with_feedback(query_vector, relevant_docs, top_k)
+    elif method == "pseudo":
+        return search_with_pseudo_feedback(query_vector, top_k)
     else:
         raise ValueError(f"Unknown search method: {method}")

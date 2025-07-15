@@ -6,11 +6,22 @@ from src import search
 def main():
     print("=== Vector Space Model: Search Interface ===")
 
-    valid_methods = {"basic", "champion", "cluster", "static", "impact"}
-    method = input("Choose retrieval method [basic/champion/cluster/static/impact]: ").strip().lower()
+     # Friendly input mapped to internal method names
+    method_mapping = {
+        "basic": "basic",
+        "champion": "champion",
+        "cluster": "cluster",
+        "static": "static",
+        "impact": "impact",
+        "relevance feedback": "feedback",
+        "pseudo feedback": "pseudo"
+    }
 
-    if method not in valid_methods:
-        print(f"[Error] Invalid method '{method}'. Using default: basic")
+    method_input = input("Choose retrieval method [basic/champion/cluster/static/impact/relevance feedback/pseudo feedback]: ").strip().lower()
+    method = method_mapping.get(method_input)
+
+    if method is None:
+        print(f"[Error] Invalid method '{method_input}'. Using default: basic")
         method = "basic"
 
     while True:
