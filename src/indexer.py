@@ -3,6 +3,8 @@ import json
 import math
 from collections import defaultdict
 from src.preprocessing import preprocess_text
+from src.utils import cosine_similarity
+
 
 def read_documents(folder="data/raw_docs/"):
     documents = {}

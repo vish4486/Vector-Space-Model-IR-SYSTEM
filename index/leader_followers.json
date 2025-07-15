@@ -1,0 +1,15 @@
+{
+  "doc9.txt": [
+    "doc10.txt",
+    "doc6.txt",
+    "doc5.txt",
+    "doc2.txt"
+  ],
+  "doc7.txt": [
+    "doc4.txt"
+  ],
+  "doc8.txt": [
+    "doc1.txt",
+    "doc3.txt"
+  ]
+}
