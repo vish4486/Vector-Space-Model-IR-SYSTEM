@@ -1,10 +1,18 @@
 import os
 import sys
+import time
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src import search
 
 def main():
     print("=== Vector Space Model: Search Interface ===")
+
+    # 1. Measure disk load time
+    start_disk = time.time()
+    from src import search  # this loads all index files
+    end_disk = time.time()
+    disk_load_time = round(end_disk - start_disk, 4)
+    print(f"[INFO] Time to load index from disk: {disk_load_time} seconds\n")
 
      # Friendly input mapped to internal method names
     method_mapping = {
@@ -34,10 +42,13 @@ def main():
             print("Exiting search.")
             break
 
-        top_k = 5  # You can make this user-configurable
+        top_k = 5  # we can make this user-configurable
 
         try:
+            start_query = time.time()
             results = search.search(query, top_k=top_k, method=method)
+            end_query = time.time()
+            query_exec_time = round(end_query - start_query, 4)
         except NotImplementedError as e:
             print(f"[Error] {e}")
             continue
@@ -52,6 +63,7 @@ def main():
             print(f"\nTop {len(results)} results using '{method}' retrieval:")
             for rank, (doc_name, score) in enumerate(results, 1):
                 print(f"{rank}. {doc_name} (Score: {score:.4f})")
+            print(f"\n[INFO] Query execution time: {query_exec_time} seconds")
 
 if __name__ == "__main__":
     main()

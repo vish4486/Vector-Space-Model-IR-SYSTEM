@@ -1,0 +1,3 @@
+doc12.txt
+doc25.txt
+doc33.txt
