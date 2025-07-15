@@ -1,42 +1,40 @@
-import os
+import matplotlib.pyplot as plt
 import time
+import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from src.search import search
-from src.evaluator import precision_at_k, recall_at_k, f1_at_k
 
-def read_text(filepath):
-    with open(filepath, "r", encoding="utf-8") as f:
-        return f.read().strip()
+# Query and methods
+query = "aerodynamic heat transfer conical laminar turbulent"
+methods = ["basic", "champion", "cluster", "static", "impact", "pseudo"]
+top_k = 5
 
-def evaluate_single_query(query_path, relevance_path, method="basic", k=5):
-    #query_text = read_text(query_path)
-    query_text = "aerodynamic heat transfer conical laminar turbulent"
+print(f"\n[Query]: {query}\n")
+# Store timing results
+timings = {}
 
-    relevant_docs = set(read_text(relevance_path).splitlines())
+# Execute each method and record timing
+for method in methods:
+    print(f"Running: {method}")
+    start = time.time()
+    _ = search(query, top_k=top_k, method=method)
+    end = time.time()
+    timings[method] = round(end - start, 4)
 
-    print(f"\n[Query]: {query_text}\n")
+# Create plots directory if it doesn't exist
+os.makedirs("plots", exist_ok=True)
 
-    start_time = time.time()
-    results = search(query_text, top_k=k, method=method)
-    elapsed = time.time() - start_time
+# Plotting
+plt.figure(figsize=(10, 6))
+plt.bar(timings.keys(), timings.values(), color="lightgreen")
+plt.xlabel("Retrieval Method")
+plt.ylabel("Time (seconds)")
+plt.title("Query Execution Time per Retrieval Method")
+plt.grid(axis="y", linestyle="--", alpha=0.6)
+plt.tight_layout()
 
-    retrieved_docs = [doc for doc, _ in results]
-
-    precision = precision_at_k(retrieved_docs, relevant_docs, k)
-    recall = recall_at_k(retrieved_docs, relevant_docs, k)
-    f1 = f1_at_k(precision, recall)
-
-    print(f"[{method.upper()}] P@{k}: {precision:.4f}, R@{k}: {recall:.4f}, F1@{k}: {f1:.4f}, Time: {elapsed:.4f}s")
-    print("Top Retrieved Docs:", retrieved_docs)
-    print("Relevant Docs     :", list(relevant_docs))
-
-
-# === 🔧 Customize this ===
-evaluate_single_query(
-    query_path="queries/query131.txt",
-    relevance_path="results/query131_relevant.txt",
-    method="basic",  # Try: basic / champion / cluster / impact / static / pseudo
-    k=5
-)
+# Save
+plt.savefig("plots/query_time_comparison.png")
+print("[✓] Saved time comparison plot to plots/query_time_comparison.png")
 
