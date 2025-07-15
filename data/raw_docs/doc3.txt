@@ -1,0 +1,1 @@
+Quantum computing utilizes principles of quantum mechanics, such as superposition and entanglement, to perform computations that would be infeasible for classical computers. It holds promise in cryptography, optimization, and molecular modeling.
