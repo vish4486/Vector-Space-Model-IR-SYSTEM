@@ -10,31 +10,34 @@ This is a fully functional Information Retrieval (IR) system based on the **Vect
 Vector-Space-Model-IR-SYSTEM/
 ├── data/
 │   └── raw_docs/               # 1400 documents (Cranfield corpus)
-├── queries/                    # 225 user queries
-├── results/                    # Relevance judgments for each query
-├── index/                      # All index files (TF-IDF, Champion Lists, etc.)
+├── queries/                    # 365 user queries
+├── results/                    # 225 Relevance judgments for each query
+├── index/                      # All index files in json (TF-IDF, Champion Lists, etc.)
 ├── src/
 │   ├── search.py               # Core search logic and ranking functions
 │   ├── preprocessing.py        # Text cleaning and tokenization
 │   ├── utils.py                # Cosine similarity function
 │   ├── spell_correction.py     # Spelling correction module
 │   └── relevance_feedback.py   # Rocchio feedback for user and pseudo relevance
+│   └── indexer.py              # Rocchio feedback for user and pseudo relevance
+│   └── evaluator.py            # Rocchio feedback for user and pseudo relevance
+│   └── generate_stopwords.py   # stopwords downloaded from nltk and saved to data/stopwords.txt
+
 ├── cli/
 │   ├── run_indexer.py          # Builds index from documents
 │   ├── run_query.py            # CLI search interface
 │   ├── run_evaluation.py       # Batch evaluation with metrics
 │   ├── run_single_eval.py      # One-query performance and timing comparison
-│   └── plot_eval.py            # Timing comparison bar chart
+
 ├── webapp/
-│   └── app.py                  # Streamlit search UI
+│   └── app.py                      # Streamlit search UI
 ├── notebooks/
-│   └── prepare_cranfield.py    # Converts original Cranfield files to usable format
+│   └── prepare_cranfield.py        # Converts original Cranfield files to usable format
 ├── plots/
-│   └── timing_comparison.png   # Saved matplotlib chart comparing methods
+│   └── query_time_comparison.png   # Saved matplotlib chart comparing methods
 └── README.md
 
-
-
+```
 ---
 
 ## 💡 Features
@@ -132,8 +135,8 @@ Main packages:
 
 * **Source:** [Cranfield Test Collection](http://ir.dcs.gla.ac.uk/resources/test_collections/cran/)
 * **Documents:** 1,400 aeronautical abstracts (`cran.all`)
-* **Queries:** 225 natural language queries (`cran.qry`)
-* **Relevance Judgments:** Query-document mappings (`cranqrel`)
+* **Queries:** 365 natural language queries (`cran.qry`)
+* **Relevance Judgments:** 225 Query-document mappings (`cranqrel`)
 
 Converted using notebooks/prepare_cranfield.py.
 
