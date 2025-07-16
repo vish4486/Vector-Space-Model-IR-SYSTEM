@@ -6,31 +6,33 @@ This is a fully functional Information Retrieval (IR) system based on the **Vect
 
 ## 📂 Project Structure
 
+```text
 Vector-Space-Model-IR-SYSTEM/
 ├── data/
-│ └── raw_docs/ # 1400 documents (Cranfield corpus)
-├── queries/ # 225 user queries
-├── results/ # Relevance judgments for each query
-├── index/ # All index files (TF-IDF, Champion Lists, etc.)
+│   └── raw_docs/               # 1400 documents (Cranfield corpus)
+├── queries/                    # 225 user queries
+├── results/                    # Relevance judgments for each query
+├── index/                      # All index files (TF-IDF, Champion Lists, etc.)
 ├── src/
-│ ├── search.py # Core search logic and ranking functions
-│ ├── preprocessing.py # Text cleaning and tokenization
-│ ├── utils.py # Cosine similarity function
-│ ├── spell_correction.py # Spelling correction module
-│ └── relevance_feedback.py # Rocchio feedback for user and pseudo relevance
+│   ├── search.py               # Core search logic and ranking functions
+│   ├── preprocessing.py        # Text cleaning and tokenization
+│   ├── utils.py                # Cosine similarity function
+│   ├── spell_correction.py     # Spelling correction module
+│   └── relevance_feedback.py   # Rocchio feedback for user and pseudo relevance
 ├── cli/
-│ ├── run_indexer.py # Builds index from documents
-│ ├── run_query.py # CLI search interface
-│ ├── run_evaluation.py # Batch evaluation with metrics
-│ ├── run_single_eval.py # One-query performance and timing comparison
-│ └── plot_eval.py # Timing comparison bar chart
+│   ├── run_indexer.py          # Builds index from documents
+│   ├── run_query.py            # CLI search interface
+│   ├── run_evaluation.py       # Batch evaluation with metrics
+│   ├── run_single_eval.py      # One-query performance and timing comparison
+│   └── plot_eval.py            # Timing comparison bar chart
 ├── webapp/
-│ └── app.py # Streamlit search UI
+│   └── app.py                  # Streamlit search UI
 ├── notebooks/
-│ └── prepare_cranfield.py # Converts original Cranfield files to usable format
+│   └── prepare_cranfield.py    # Converts original Cranfield files to usable format
 ├── plots/
-│ └── timing_comparison.png # Saved matplotlib chart comparing methods
+│   └── timing_comparison.png   # Saved matplotlib chart comparing methods
 └── README.md
+
 
 
 ---
@@ -105,8 +107,8 @@ Features:
 
 ## 📈 Example Query
 
-Search for: the problems of heat transfer in turbulent shear flow 
-See a ranked list of relevant research abstracts!
+* Search for: the problems of heat transfer in turbulent shear flow 
+* See a ranked list of relevant research abstracts!
 
 ---
 
@@ -119,10 +121,10 @@ pip install -r requirements.txt
 
 Main packages:
 
-streamlit
-matplotlib
-numpy
-nltk
+* streamlit
+* matplotlib
+* numpy
+* nltk
 
 ---
 
