@@ -93,13 +93,20 @@ streamlit run webapp/app.py
 
 Features:
 
---Interactive query box
+1.Interactive query box
 
---Method selector
+2.Method selector
 
---Top-k results with scores
+3.Top-k results with scores
 
---Manual relevance marking (for feedback)
+4.Manual relevance marking (for feedback)
+
+---
+
+## 📈 Example Query
+
+Search for: the problems of heat transfer in turbulent shear flow 
+See a ranked list of relevant research abstracts!
 
 ---
 
@@ -117,15 +124,18 @@ matplotlib
 numpy
 nltk
 
-## 📚 Dataset Info
-This project uses the Cranfield Dataset containing:
+---
 
-1400 documents on aerodynamics
-365 queries
-225 relevance judgments
+## 📂 Dataset: The Cranfield Collection
+
+* **Source:** [Cranfield Test Collection](http://ir.dcs.gla.ac.uk/resources/test_collections/cran/)
+* **Documents:** 1,400 aeronautical abstracts (`cran.all`)
+* **Queries:** 225 natural language queries (`cran.qry`)
+* **Relevance Judgments:** Query-document mappings (`cranqrel`)
 
 Converted using notebooks/prepare_cranfield.py.
 
+---
 
 ## 📌 Credits
 Developed by Vishal Nigam as part of academic coursework on Information Retrieval & Data Visualization at Trieste University.
