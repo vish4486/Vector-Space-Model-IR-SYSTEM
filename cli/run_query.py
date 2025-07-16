@@ -1,15 +1,19 @@
 import os
 import sys
 import time
+
+# Add project root to system path for module imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+# Import main search dispatcher from src
 from src import search
 
 def main():
     print("=== Vector Space Model: Search Interface ===")
 
-    # 1. Measure disk load time
+    # === Load index files and measure disk read time ===
     start_disk = time.time()
-    from src import search  # this loads all index files
+    from src import search  # Triggers index file loading in src/search.py
     end_disk = time.time()
     disk_load_time = round(end_disk - start_disk, 4)
     print(f"[INFO] Time to load index from disk: {disk_load_time} seconds\n")
@@ -25,6 +29,7 @@ def main():
         "pseudo feedback": "pseudo"
     }
 
+    # === Choose retrieval method ===
     method_input = input("Choose retrieval method [basic/champion/cluster/static/impact/relevance feedback/pseudo feedback]: ").strip().lower()
     method = method_mapping.get(method_input)
 
@@ -32,6 +37,7 @@ def main():
         print(f"[Error] Invalid method '{method_input}'. Using default: basic")
         method = "basic"
 
+    # === Query Loop ===
     while True:
         query = input("\nEnter your search query (or type 'exit' to quit): ").strip()
         if not query:
@@ -55,7 +61,7 @@ def main():
         except Exception as e:
             print(f"[Unexpected Error] {e}")
             continue
-
+        #====DISPLAY RESULTS=======
         if not results or all(score == 0 for _, score in results):
             print("No relevant documents found.")
         else:

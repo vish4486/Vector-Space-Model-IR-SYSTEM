@@ -4,30 +4,37 @@ import json
 from collections import defaultdict
 import random
 
+# Append parent directory to allow importing project modules
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from src import indexer
 from src.utils import cosine_similarity
 
 
 def main():
+    # === STEP 1: Read and Preprocess Documents ===
     print("Reading and preprocessing documents...")
     docs = indexer.read_documents()
 
+    # === STEP 2: TF and DF Computation ===
     print("Computing term frequencies (TF)...")
     tf = indexer.compute_tf(docs)
 
     print("Computing document frequencies (DF)...")
     df = indexer.compute_df(tf)
 
+    # === STEP 3: Compute IDF and TF-IDF Vectors ===
     print("Computing inverse document frequencies (IDF)...")
     idf = indexer.compute_idf(df, N=len(docs))
 
     print("Computing TF-IDF document vectors...")
     tfidf_vectors = indexer.compute_tfidf(tf, idf)
 
+    # === STEP 4: Build Inverted Index ===
     print("Building inverted index...")
     inverted_index = indexer.build_inverted_index(tfidf_vectors)
 
+    # === STEP 5: Save Basic Index Files ===
     print("Saving index and vectors to disk...")
     os.makedirs("index", exist_ok=True)
     indexer.save_json(tfidf_vectors, "index/doc_vectors.json")
@@ -43,6 +50,7 @@ def main():
         for term, weight in vector.items():
             champion_lists[term].append((doc_name, weight))
 
+    # Sort by weight and trim to top R
     for term in champion_lists:
         champion_lists[term].sort(key=lambda x: x[1], reverse=True)
         champion_lists[term] = champion_lists[term][:R]
@@ -52,7 +60,7 @@ def main():
 
     print(f"Champion lists saved to index/champion_lists.json")
 
-    # === Cluster Pruning ===
+    # === STEP 7: Cluster Pruning Leaders & Followers ===
     print("Building cluster pruning leaders and followers...")
     random.seed(42)
     doc_names = list(tfidf_vectors.keys())
@@ -73,7 +81,7 @@ def main():
     indexer.save_json(leader_followers, "index/leader_followers.json")
     print("Cluster pruning structures saved to index/")
 
-    # === Generate and Save Static Quality Scores ===
+    # === STEP 8: Static Quality Scores (Heuristic for older/newer docs) ===
     print("Generating static quality scores...")
     # Higher doc numbers get lower scores (simulate "older" or "less important")
     static_scores = {}
@@ -88,7 +96,7 @@ def main():
     indexer.save_json(static_scores, "index/static_quality_scores.json")
     print("Static quality scores saved to index/static_quality_scores.json")
 
-    # === Build and Save Impact-Ordered Index ===
+    # === STEP 9: Impact-Ordered Index ===
     print("Building impact-ordered index...")
     impact_index = defaultdict(list)
     for doc_name, vector in tfidf_vectors.items():
@@ -104,6 +112,7 @@ def main():
 
     print("Impact-ordered index saved to index/impact_index.json")
     
+    # === SUMMARY ===
     print("Indexing completed.")
     print(f"Documents indexed: {len(docs)}")
     print(f"Vocabulary size: {len(idf)}")
