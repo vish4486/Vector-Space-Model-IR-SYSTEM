@@ -25,7 +25,7 @@ for i in range(0, len(docs), 2):
     with open(os.path.join(output_docs_dir, f"doc{doc_id}.txt"), "w") as out_f:
         out_f.write(cleaned)
 
-print(f"[✓] Saved {len(docs)//2} documents to {output_docs_dir}")
+print(f"Saved {len(docs)//2} documents to {output_docs_dir}")
 
 # === STEP 2: Convert cran.qry to query1.txt ... query225.txt ===
 with open(os.path.join(raw_dir, "cran.qry"), "r") as f:
@@ -38,7 +38,7 @@ for i in range(0, len(queries), 2):
     with open(os.path.join(output_queries_dir, f"query{q_id}.txt"), "w") as out_f:
         out_f.write(q_text)
 
-print(f"[✓] Saved {len(queries)//2} queries to {output_queries_dir}")
+print(f"Saved {len(queries)//2} queries to {output_queries_dir}")
 
 # === STEP 3: Convert cranqrel to queryX_relevant.txt ===
 relevance_dict = {}
@@ -54,4 +54,4 @@ for qid, docs in relevance_dict.items():
         for doc_name in docs:
             out_f.write(f"{doc_name}\n")
 
-print(f"[✓] Saved relevance judgments to {output_results_dir}")
+print(f" Saved relevance judgments to {output_results_dir}")

@@ -4,15 +4,16 @@ import json
 import math
 from collections import Counter,defaultdict
 
-
+# Add parent directory to sys.path for absolute imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# Import custom modules
 from src.preprocessing import preprocess_text
 from src import spell_correction
 from src.utils import cosine_similarity
 from src import relevance_feedback
 
 # ==== Load Index Files ====
-
+# Precomputed index data used by all retrieval strategies
 with open("index/idf.json", "r") as f:
     IDF = json.load(f)
 
@@ -35,12 +36,14 @@ with open("index/impact_index.json", "r") as f:
     IMPACT_INDEX = json.load(f)
 
 
-# ==== Vocabulary ====
+# ==== Vocabulary for spell correction ====
 vocabulary = set(IDF.keys())
 
 # ==== TF-IDF Vector for Query ====
-
 def compute_query_vector(query_tokens, idf_dict):
+    """
+    Build a TF-IDF vector for the input query tokens.
+    """
     tf = Counter(query_tokens)
     total_terms = sum(tf.values())
     tfidf_vector = {}
@@ -51,9 +54,13 @@ def compute_query_vector(query_tokens, idf_dict):
             tfidf_vector[term] = tf_score * idf_dict[term]
     return tfidf_vector
 
+
 # ==== Retrieval Strategies ====
 
 def rank_documents(query_vector, doc_vectors, top_k=5):
+    """
+    Rank all documents based on cosine similarity with the query vector.
+    """
     scores = []
     for doc_name, doc_vec in doc_vectors.items():
         score = cosine_similarity(query_vector, doc_vec)
@@ -63,6 +70,9 @@ def rank_documents(query_vector, doc_vectors, top_k=5):
     return scores[:top_k]
 
 def rank_with_champion_lists(query_vector, doc_vectors, champion_lists, top_k=5):
+    """
+    Use Champion Lists to retrieve and rank only top documents for each term.
+    """
     candidate_docs = set()
     for term in query_vector:
         if term in champion_lists:
@@ -78,6 +88,11 @@ def rank_with_champion_lists(query_vector, doc_vectors, champion_lists, top_k=5)
     return scores[:top_k]
 
 def rank_with_cluster_pruning(query_vector, top_k=5):
+    """
+    Use Cluster Pruning to reduce the search space.
+    Step 1: Find closest leader.
+    Step 2: Search within that leader’s cluster.
+    """
     # Step 1: Choose closest leader
     best_leader = max(
         LEADERS,
@@ -114,7 +129,9 @@ def rank_with_static_quality(query_vector, doc_vectors, static_scores, alpha=0.5
 
 
 def rank_with_impact_ordering(query_vector, top_k=5):
-    """Rank documents using impact-ordered index"""
+    """
+    Rank documents using precomputed impact-ordered index (term-wise inverted list).
+    """
     scores = defaultdict(float)
 
     for term, q_weight in query_vector.items():
@@ -128,13 +145,18 @@ def rank_with_impact_ordering(query_vector, top_k=5):
 
 #====MANUAL RELEVANCE FEEDBACK====REQUIRES KNOWN RELEVANT DOCS#
 def search_with_feedback(query_vector, relevant_docs, top_k=5):
-    """Use Rocchio relevance feedback to refine query and return new ranking"""
+    """
+    Manual Rocchio feedback based on user-marked relevant documents.
+    """
     updated_query_vector = relevance_feedback.rocchio_feedback(query_vector, relevant_docs, DOC_VECTORS)
     return rank_documents(updated_query_vector, DOC_VECTORS, top_k)
 
 
 #====PSEUDO RELEVANCE FEEDBACK====#
 def search_with_pseudo_feedback(query_vector, top_k=5, pseudo_k=3):
+    """
+    Apply Rocchio using top pseudo_k docs as relevant (pseudo-relevance feedback).
+    """
     """Assume top pseudo_k docs are relevant and apply Rocchio"""
     # Step 1: Initial retrieval
     initial_results = rank_documents(query_vector, DOC_VECTORS, top_k=pseudo_k)
@@ -151,14 +173,20 @@ def search_with_pseudo_feedback(query_vector, top_k=5, pseudo_k=3):
 # ==== Main Search Dispatcher ====
 
 def search(query, top_k=5, method="basic"):
+    """
+    Dispatcher that applies the specified retrieval method on the given query.
+    """
+    # Step 1: Preprocess and spell-correct
     tokens = preprocess_text(query)
     corrected_tokens = spell_correction.correct_query(tokens, vocabulary)
     if tokens != corrected_tokens:
         print(f"[Info] Corrected query: {' '.join(corrected_tokens)}")
     tokens = corrected_tokens
 
+    # Step 2: Compute query TF-IDF vector
     query_vector = compute_query_vector(tokens, IDF)
 
+    # Step 3: Call appropriate ranking strategy
     if method == "basic":
         return rank_documents(query_vector, DOC_VECTORS, top_k)
     elif method == "champion":
@@ -170,6 +198,7 @@ def search(query, top_k=5, method="basic"):
     elif method == "impact":
         return rank_with_impact_ordering(query_vector, top_k)
     elif method == "feedback":
+        # Manual relevance feedback using CLI
         top_results = rank_documents(query_vector, DOC_VECTORS, top_k)
         print(f"\nTop {top_k} initial results using 'feedback' retrieval:")
         for rank, (doc_name, score) in enumerate(top_results, 1):
