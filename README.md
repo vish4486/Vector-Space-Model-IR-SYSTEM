@@ -19,8 +19,8 @@ Vector-Space-Model-IR-SYSTEM/
 │   ├── utils.py                # Cosine similarity function
 │   ├── spell_correction.py     # Spelling correction module
 │   └── relevance_feedback.py   # Rocchio feedback for user and pseudo relevance
-│   └── indexer.py              # Rocchio feedback for user and pseudo relevance
-│   └── evaluator.py            # Rocchio feedback for user and pseudo relevance
+│   └── indexer.py              # indexing logic
+│   └── evaluator.py            # evaluation methods
 │   └── generate_stopwords.py   # stopwords downloaded from nltk and saved to data/stopwords.txt
 
 ├── cli/
