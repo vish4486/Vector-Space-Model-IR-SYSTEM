@@ -1,1590 +1,1439 @@
 {
-  "doc290.txt": [
+  "doc957.txt": [
     "doc915.txt",
-    "doc813.txt",
-    "doc834.txt",
-    "doc263.txt",
-    "doc715.txt"
-  ],
-  "doc70.txt": [
-    "doc1267.txt",
-    "doc484.txt",
-    "doc1329.txt",
-    "doc443.txt",
-    "doc1210.txt",
-    "doc194.txt",
-    "doc39.txt",
-    "doc1233.txt",
-    "doc205.txt",
-    "doc204.txt",
-    "doc1256.txt"
-  ],
-  "doc464.txt": [
-    "doc901.txt",
-    "doc902.txt",
-    "doc250.txt",
-    "doc420.txt",
-    "doc226.txt",
-    "doc612.txt",
-    "doc465.txt"
-  ],
-  "doc868.txt": [
-    "doc732.txt",
-    "doc220.txt"
-  ],
-  "doc1043.txt": [
-    "doc1071.txt"
-  ],
-  "doc1006.txt": [
-    "doc1065.txt",
-    "doc1105.txt",
-    "doc1005.txt",
-    "doc1377.txt"
-  ],
-  "doc37.txt": [
-    "doc295.txt"
-  ],
-  "doc930.txt": [
     "doc1059.txt",
-    "doc898.txt",
-    "doc826.txt",
-    "doc1044.txt",
-    "doc1134.txt"
+    "doc323.txt",
+    "doc1058.txt",
+    "doc862.txt",
+    "doc1060.txt",
+    "doc642.txt",
+    "doc633.txt",
+    "doc1016.txt",
+    "doc758.txt",
+    "doc822.txt",
+    "doc956.txt",
+    "doc1145.txt",
+    "doc951.txt",
+    "doc1035.txt",
+    "doc400.txt",
+    "doc831.txt",
+    "doc830.txt",
+    "doc950.txt",
+    "doc761.txt",
+    "doc1022.txt",
+    "doc827.txt",
+    "doc1023.txt",
+    "doc760.txt",
+    "doc1050.txt",
+    "doc897.txt",
+    "doc1131.txt",
+    "doc937.txt",
+    "doc1053.txt",
+    "doc936.txt",
+    "doc932.txt",
+    "doc1056.txt",
+    "doc1122.txt",
+    "doc891.txt",
+    "doc1057.txt"
   ],
-  "doc207.txt": [
-    "doc281.txt",
-    "doc1113.txt"
-  ],
-  "doc1375.txt": [
-    "doc530.txt",
-    "doc1370.txt",
-    "doc777.txt"
-  ],
-  "doc179.txt": [
-    "doc242.txt"
-  ],
-  "doc1366.txt": [
-    "doc62.txt"
-  ],
-  "doc878.txt": [
-    "doc1111.txt",
-    "doc874.txt",
-    "doc914.txt",
-    "doc643.txt",
-    "doc15.txt",
-    "doc753.txt",
-    "doc747.txt",
-    "doc202.txt",
-    "doc1290.txt"
-  ],
-  "doc239.txt": [
-    "doc1139.txt",
-    "doc10.txt",
-    "doc1227.txt",
-    "doc1323.txt"
-  ],
-  "doc1235.txt": [
-    "doc322.txt",
-    "doc527.txt",
-    "doc133.txt"
-  ],
-  "doc45.txt": [
-    "doc89.txt",
-    "doc240.txt"
-  ],
-  "doc1270.txt": [
-    "doc450.txt",
-    "doc607.txt"
-  ],
-  "doc142.txt": [
-    "doc861.txt",
-    "doc120.txt"
-  ],
-  "doc1213.txt": [
-    "doc1307.txt",
-    "doc435.txt",
-    "doc423.txt",
-    "doc564.txt"
-  ],
-  "doc1312.txt": [
-    "doc1313.txt",
-    "doc1077.txt",
-    "doc1252.txt",
-    "doc1286.txt"
-  ],
-  "doc12.txt": [
-    "doc875.txt",
-    "doc746.txt",
-    "doc184.txt"
-  ],
-  "doc593.txt": [
-    "doc685.txt",
-    "doc1338.txt",
-    "doc686.txt",
-    "doc380.txt",
-    "doc781.txt",
-    "doc634.txt",
-    "doc201.txt",
-    "doc1341.txt"
-  ],
-  "doc823.txt": [
-    "doc849.txt",
-    "doc1121.txt"
-  ],
-  "doc302.txt": [
-    "doc691.txt",
-    "doc405.txt",
-    "doc649.txt",
-    "doc1335.txt"
-  ],
-  "doc499.txt": [
-    "doc108.txt"
-  ],
-  "doc2.txt": [
-    "doc134.txt",
-    "doc375.txt",
-    "doc389.txt",
-    "doc3.txt"
-  ],
-  "doc631.txt": [
-    "doc652.txt",
-    "doc245.txt",
-    "doc673.txt"
-  ],
-  "doc267.txt": [
+  "doc966.txt": [
+    "doc1273.txt",
+    "doc62.txt",
     "doc653.txt",
     "doc88.txt",
-    "doc268.txt",
-    "doc270.txt",
-    "doc500.txt",
-    "doc104.txt"
-  ],
-  "doc1392.txt": [
-    "doc647.txt",
-    "doc1387.txt"
-  ],
-  "doc282.txt": [
-    "doc121.txt",
-    "doc519.txt",
-    "doc409.txt",
-    "doc176.txt"
-  ],
-  "doc1061.txt": [
-    "doc109.txt",
-    "doc1072.txt",
-    "doc103.txt"
-  ],
-  "doc662.txt": [
-    "doc690.txt",
-    "doc1104.txt",
-    "doc635.txt",
-    "doc81.txt",
-    "doc689.txt"
-  ],
-  "doc764.txt": [
-    "doc848.txt",
-    "doc847.txt"
-  ],
-  "doc681.txt": [
-    "doc684.txt",
-    "doc778.txt",
-    "doc46.txt"
-  ],
-  "doc51.txt": [
-    "doc860.txt",
-    "doc253.txt",
-    "doc102.txt"
-  ],
-  "doc368.txt": [
-    "doc451.txt"
-  ],
-  "doc338.txt": [
-    "doc337.txt",
-    "doc123.txt",
-    "doc344.txt"
-  ],
-  "doc324.txt": [
-    "doc323.txt",
-    "doc65.txt",
-    "doc180.txt",
-    "doc394.txt",
-    "doc629.txt"
-  ],
-  "doc264.txt": [
-    "doc445.txt"
-  ],
-  "doc150.txt": [
-    "doc479.txt"
-  ],
-  "doc1137.txt": [
-    "doc1138.txt",
-    "doc1135.txt"
-  ],
-  "doc880.txt": [
-    "doc486.txt",
-    "doc879.txt"
-  ],
-  "doc624.txt": [
     "doc77.txt",
-    "doc650.txt"
-  ],
-  "doc540.txt": [
-    "doc525.txt",
-    "doc494.txt",
-    "doc327.txt",
-    "doc305.txt",
-    "doc310.txt"
-  ],
-  "doc961.txt": [
-    "doc243.txt",
-    "doc241.txt",
-    "doc131.txt",
-    "doc1371.txt",
-    "doc960.txt",
-    "doc350.txt",
-    "doc474.txt"
-  ],
-  "doc940.txt": [
-    "doc257.txt",
-    "doc943.txt"
-  ],
-  "doc633.txt": [
-    "doc1058.txt",
-    "doc682.txt"
-  ],
-  "doc347.txt": [
-    "doc294.txt",
-    "doc1395.txt",
-    "doc398.txt"
-  ],
-  "doc1095.txt": [
-    "doc1064.txt",
-    "doc1091.txt",
-    "doc1094.txt"
-  ],
-  "doc1133.txt": [
-    "doc1070.txt",
-    "doc1129.txt",
-    "doc1360.txt",
-    "doc1132.txt"
-  ],
-  "doc1279.txt": [
-    "doc1299.txt",
-    "doc509.txt"
-  ],
-  "doc726.txt": [
-    "doc727.txt",
-    "doc75.txt",
-    "doc867.txt",
-    "doc865.txt",
-    "doc768.txt",
-    "doc767.txt",
-    "doc883.txt",
-    "doc881.txt",
-    "doc884.txt"
-  ],
-  "doc734.txt": [
-    "doc733.txt",
-    "doc735.txt"
-  ],
-  "doc1124.txt": [
-    "doc1266.txt",
-    "doc246.txt",
-    "doc360.txt",
-    "doc1380.txt",
-    "doc561.txt",
-    "doc1291.txt"
-  ],
-  "doc797.txt": [
-    "doc900.txt",
-    "doc683.txt",
-    "doc222.txt",
-    "doc757.txt",
-    "doc1343.txt",
-    "doc601.txt"
-  ],
-  "doc53.txt": [
-    "doc1264.txt",
-    "doc1106.txt",
-    "doc187.txt",
-    "doc959.txt",
-    "doc505.txt"
-  ],
-  "doc247.txt": [
-    "doc916.txt",
-    "doc679.txt",
-    "doc678.txt",
-    "doc227.txt",
-    "doc147.txt",
-    "doc712.txt",
-    "doc676.txt"
-  ],
-  "doc639.txt": [
-    "doc719.txt"
-  ],
-  "doc722.txt": [
-    "doc725.txt",
-    "doc911.txt"
-  ],
-  "doc1115.txt": [
-    "doc1066.txt",
-    "doc1152.txt",
-    "doc69.txt",
-    "doc717.txt"
-  ],
-  "doc531.txt": [
-    "doc296.txt",
-    "doc1249.txt",
-    "doc1255.txt",
-    "doc448.txt",
-    "doc449.txt"
-  ],
-  "doc61.txt": [
-    "doc269.txt",
-    "doc1238.txt",
-    "doc1222.txt",
-    "doc1221.txt",
-    "doc112.txt"
-  ],
-  "doc587.txt": [
-    "doc1099.txt",
-    "doc873.txt",
-    "doc1101.txt",
-    "doc396.txt"
-  ],
-  "doc1259.txt": [
-    "doc1112.txt",
-    "doc1197.txt",
-    "doc892.txt"
-  ],
-  "doc667.txt": [
-    "doc490.txt",
-    "doc1391.txt",
-    "doc403.txt",
-    "doc328.txt",
-    "doc329.txt"
-  ],
-  "doc170.txt": [
-    "doc335.txt",
-    "doc345.txt"
-  ],
-  "doc210.txt": [
-    "doc453.txt",
-    "doc1167.txt",
-    "doc1165.txt",
-    "doc1092.txt"
-  ],
-  "doc72.txt": [
-    "doc321.txt",
-    "doc546.txt",
-    "doc1203.txt"
-  ],
-  "doc935.txt": [
-    "doc889.txt"
-  ],
-  "doc219.txt": [
-    "doc137.txt",
-    "doc209.txt"
-  ],
-  "doc1185.txt": [
-    "doc645.txt",
-    "doc623.txt"
-  ],
-  "doc1231.txt": [
-    "doc122.txt",
-    "doc1262.txt",
-    "doc567.txt"
-  ],
-  "doc942.txt": [
-    "doc136.txt"
-  ],
-  "doc467.txt": [
-    "doc687.txt",
-    "doc470.txt"
-  ],
-  "doc692.txt": [
-    "doc693.txt",
-    "doc694.txt",
-    "doc1166.txt"
-  ],
-  "doc478.txt": [
-    "doc320.txt",
-    "doc1376.txt",
-    "doc476.txt"
-  ],
-  "doc569.txt": [
-    "doc334.txt",
-    "doc655.txt",
-    "doc570.txt"
-  ],
-  "doc5.txt": [
-    "doc485.txt",
-    "doc1073.txt",
-    "doc119.txt",
-    "doc181.txt",
-    "doc582.txt",
-    "doc144.txt",
-    "doc981.txt",
-    "doc399.txt",
-    "doc159.txt",
-    "doc6.txt",
-    "doc91.txt",
-    "doc90.txt"
-  ],
-  "doc941.txt": [
+    "doc49.txt",
     "doc491.txt",
-    "doc351.txt"
-  ],
-  "doc1300.txt": [
-    "doc1107.txt",
-    "doc211.txt",
-    "doc371.txt",
-    "doc1284.txt"
-  ],
-  "doc229.txt": [
-    "doc60.txt",
-    "doc939.txt",
-    "doc432.txt",
-    "doc230.txt",
-    "doc289.txt"
-  ],
-  "doc308.txt": [
-    "doc254.txt",
-    "doc192.txt",
-    "doc1325.txt",
-    "doc1109.txt"
-  ],
-  "doc1143.txt": [
-    "doc1098.txt"
-  ],
-  "doc33.txt": [
-    "doc297.txt"
-  ],
-  "doc640.txt": [
-    "doc724.txt",
-    "doc909.txt"
-  ],
-  "doc990.txt": [
-    "doc1271.txt",
-    "doc989.txt",
-    "doc988.txt",
-    "doc987.txt",
-    "doc985.txt",
-    "doc984.txt",
-    "doc277.txt"
-  ],
-  "doc251.txt": [
-    "doc917.txt"
-  ],
-  "doc411.txt": [
-    "doc903.txt",
-    "doc482.txt",
-    "doc1389.txt",
-    "doc178.txt",
-    "doc609.txt",
-    "doc1390.txt"
-  ],
-  "doc991.txt": [
-    "doc1265.txt",
-    "doc994.txt"
-  ],
-  "doc1076.txt": [
-    "doc1261.txt",
-    "doc1225.txt",
-    "doc406.txt",
-    "doc148.txt",
-    "doc1355.txt"
-  ],
-  "doc196.txt": [
-    "doc907.txt"
-  ],
-  "doc1196.txt": [
-    "doc1275.txt",
-    "doc976.txt",
-    "doc154.txt",
-    "doc558.txt",
-    "doc1141.txt",
-    "doc1080.txt"
-  ],
-  "doc1049.txt": [
-    "doc720.txt",
-    "doc1048.txt"
-  ],
-  "doc711.txt": [
-    "doc708.txt",
-    "doc709.txt"
-  ],
-  "doc600.txt": [
-    "doc287.txt",
-    "doc790.txt",
-    "doc599.txt",
-    "doc199.txt",
-    "doc748.txt"
-  ],
-  "doc605.txt": [
-    "doc522.txt"
-  ],
-  "doc832.txt": [
-    "doc1088.txt"
-  ],
-  "doc288.txt": [
-    "doc278.txt",
-    "doc1277.txt",
-    "doc433.txt",
-    "doc1342.txt",
-    "doc549.txt",
-    "doc927.txt"
-  ],
-  "doc979.txt": [
-    "doc58.txt"
-  ],
-  "doc319.txt": [
-    "doc64.txt"
-  ],
-  "doc1067.txt": [
-    "doc1117.txt",
-    "doc743.txt",
-    "doc934.txt",
-    "doc1118.txt"
-  ],
-  "doc620.txt": [
-    "doc1103.txt",
-    "doc1147.txt",
-    "doc968.txt",
-    "doc83.txt"
-  ],
-  "doc331.txt": [
-    "doc330.txt"
-  ],
-  "doc1319.txt": [
-    "doc318.txt",
-    "doc1274.txt",
-    "doc1248.txt",
-    "doc1204.txt",
-    "doc190.txt",
-    "doc1157.txt",
-    "doc665.txt"
-  ],
-  "doc495.txt": [
-    "doc654.txt",
-    "doc1327.txt",
-    "doc262.txt"
-  ],
-  "doc487.txt": [
-    "doc126.txt",
-    "doc455.txt",
-    "doc1216.txt",
-    "doc97.txt"
-  ],
-  "doc1258.txt": [
-    "doc668.txt",
-    "doc630.txt",
-    "doc1191.txt"
-  ],
-  "doc1038.txt": [
-    "doc669.txt",
-    "doc770.txt"
-  ],
-  "doc730.txt": [
-    "doc641.txt",
-    "doc648.txt"
-  ],
-  "doc1020.txt": [
-    "doc866.txt",
-    "doc871.txt",
-    "doc1028.txt",
-    "doc1029.txt",
-    "doc1027.txt",
-    "doc1026.txt",
-    "doc1024.txt",
-    "doc1030.txt",
-    "doc1031.txt",
-    "doc1021.txt",
-    "doc1022.txt",
-    "doc1023.txt"
-  ],
-  "doc49.txt": [
+    "doc268.txt",
     "doc872.txt",
     "doc325.txt",
-    "doc962.txt",
-    "doc584.txt",
-    "doc978.txt"
-  ],
-  "doc1382.txt": [
-    "doc457.txt",
-    "doc155.txt",
-    "doc1182.txt",
-    "doc459.txt"
-  ],
-  "doc590.txt": [
-    "doc1102.txt",
-    "doc426.txt",
-    "doc772.txt",
-    "doc588.txt",
-    "doc576.txt"
-  ],
-  "doc560.txt": [
-    "doc480.txt",
     "doc59.txt",
-    "doc343.txt",
-    "doc385.txt",
-    "doc387.txt",
-    "doc1200.txt",
-    "doc565.txt",
-    "doc260.txt",
-    "doc339.txt",
-    "doc661.txt"
-  ],
-  "doc233.txt": [
-    "doc279.txt"
-  ],
-  "doc1170.txt": [
-    "doc1089.txt",
-    "doc1144.txt",
-    "doc1168.txt",
-    "doc896.txt",
-    "doc1090.txt"
-  ],
-  "doc366.txt": [
-    "doc537.txt",
-    "doc365.txt",
-    "doc84.txt"
-  ],
-  "doc1075.txt": [
-    "doc1062.txt",
-    "doc1239.txt",
-    "doc752.txt",
-    "doc749.txt"
-  ],
-  "doc54.txt": [
-    "doc292.txt",
-    "doc1365.txt",
-    "doc352.txt"
-  ],
-  "doc7.txt": [
-    "doc8.txt",
-    "doc1212.txt",
-    "doc796.txt",
-    "doc1220.txt",
-    "doc43.txt",
-    "doc80.txt",
-    "doc710.txt",
-    "doc314.txt",
-    "doc96.txt",
-    "doc933.txt"
-  ],
-  "doc1363.txt": [
-    "doc286.txt",
-    "doc737.txt",
-    "doc1054.txt"
-  ],
-  "doc893.txt": [
-    "doc906.txt",
-    "doc904.txt",
-    "doc905.txt",
-    "doc175.txt",
-    "doc238.txt"
-  ],
-  "doc926.txt": [
-    "doc938.txt",
-    "doc742.txt",
-    "doc897.txt"
-  ],
-  "doc779.txt": [
-    "doc1289.txt",
-    "doc882.txt"
-  ],
-  "doc1053.txt": [
-    "doc1060.txt"
-  ],
-  "doc526.txt": [
-    "doc521.txt",
-    "doc440.txt",
-    "doc315.txt"
-  ],
-  "doc1127.txt": [
-    "doc1128.txt",
-    "doc761.txt",
-    "doc1069.txt"
-  ],
-  "doc503.txt": [
-    "doc496.txt",
-    "doc38.txt",
-    "doc404.txt",
-    "doc415.txt"
-  ],
-  "doc1241.txt": [
-    "doc1100.txt",
-    "doc553.txt",
-    "doc1268.txt",
-    "doc1097.txt",
-    "doc1281.txt"
-  ],
-  "doc55.txt": [
-    "doc73.txt",
-    "doc1367.txt",
-    "doc145.txt",
-    "doc348.txt",
-    "doc1386.txt",
-    "doc562.txt",
-    "doc50.txt",
-    "doc489.txt",
-    "doc461.txt"
-  ],
-  "doc76.txt": [
-    "doc1114.txt",
-    "doc99.txt",
-    "doc151.txt",
-    "doc1331.txt",
-    "doc258.txt"
-  ],
-  "doc309.txt": [
-    "doc98.txt"
-  ],
-  "doc801.txt": [
-    "doc469.txt",
-    "doc468.txt"
-  ],
-  "doc948.txt": [
-    "doc858.txt",
-    "doc859.txt",
-    "doc766.txt",
-    "doc894.txt"
-  ],
-  "doc255.txt": [
-    "doc1302.txt",
-    "doc1047.txt"
-  ],
-  "doc1008.txt": [
-    "doc864.txt",
-    "doc285.txt",
-    "doc391.txt",
-    "doc857.txt",
-    "doc856.txt"
-  ],
-  "doc497.txt": [
-    "doc870.txt",
-    "doc29.txt",
-    "doc195.txt",
-    "doc395.txt",
-    "doc580.txt",
-    "doc31.txt",
-    "doc95.txt"
-  ],
-  "doc1318.txt": [
-    "doc1316.txt",
-    "doc1096.txt"
-  ],
-  "doc9.txt": [
-    "doc125.txt",
-    "doc346.txt",
-    "doc568.txt",
-    "doc413.txt",
-    "doc776.txt",
-    "doc165.txt"
-  ],
-  "doc1245.txt": [
-    "doc657.txt",
-    "doc1297.txt"
-  ],
-  "doc1230.txt": [
-    "doc656.txt",
-    "doc1183.txt",
-    "doc575.txt"
-  ],
-  "doc56.txt": [
-    "doc124.txt",
-    "doc232.txt",
-    "doc373.txt",
-    "doc359.txt",
-    "doc57.txt",
-    "doc248.txt"
-  ],
-  "doc888.txt": [
-    "doc642.txt",
-    "doc838.txt",
-    "doc1176.txt",
-    "doc1178.txt",
-    "doc428.txt",
-    "doc1131.txt",
-    "doc891.txt"
-  ],
-  "doc1156.txt": [
-    "doc1317.txt",
-    "doc171.txt"
-  ],
-  "doc48.txt": [
-    "doc1303.txt",
-    "doc354.txt",
-    "doc1308.txt"
-  ],
-  "doc21.txt": [
-    "doc326.txt",
-    "doc534.txt",
-    "doc550.txt",
-    "doc571.txt",
-    "doc22.txt",
-    "doc528.txt",
-    "doc306.txt"
-  ],
-  "doc421.txt": [
-    "doc508.txt",
-    "doc357.txt",
-    "doc572.txt"
-  ],
-  "doc799.txt": [
-    "doc252.txt",
-    "doc1153.txt",
-    "doc206.txt",
-    "doc316.txt"
-  ],
-  "doc283.txt": [
-    "doc1263.txt",
-    "doc1161.txt",
-    "doc983.txt",
-    "doc36.txt",
-    "doc1394.txt"
-  ],
-  "doc788.txt": [
-    "doc786.txt",
-    "doc787.txt",
-    "doc596.txt",
-    "doc1201.txt"
-  ],
-  "doc844.txt": [
-    "doc751.txt",
-    "doc846.txt",
-    "doc845.txt"
-  ],
-  "doc111.txt": [
+    "doc939.txt",
     "doc745.txt",
-    "doc1388.txt"
+    "doc624.txt",
+    "doc1371.txt",
+    "doc963.txt",
+    "doc342.txt",
+    "doc586.txt",
+    "doc958.txt",
+    "doc596.txt",
+    "doc408.txt",
+    "doc352.txt",
+    "doc385.txt",
+    "doc967.txt",
+    "doc542.txt",
+    "doc387.txt",
+    "doc1375.txt",
+    "doc152.txt",
+    "doc153.txt",
+    "doc379.txt",
+    "doc351.txt",
+    "doc11.txt",
+    "doc386.txt",
+    "doc34.txt",
+    "doc1184.txt",
+    "doc1386.txt",
+    "doc639.txt",
+    "doc407.txt",
+    "doc361.txt",
+    "doc21.txt",
+    "doc388.txt",
+    "doc1193.txt",
+    "doc160.txt",
+    "doc941.txt",
+    "doc164.txt",
+    "doc33.txt",
+    "doc1222.txt",
+    "doc1194.txt",
+    "doc984.txt",
+    "doc1221.txt",
+    "doc303.txt",
+    "doc115.txt",
+    "doc114.txt",
+    "doc81.txt",
+    "doc499.txt",
+    "doc300.txt",
+    "doc117.txt",
+    "doc55.txt",
+    "doc1250.txt",
+    "doc1254.txt",
+    "doc1297.txt",
+    "doc661.txt",
+    "doc649.txt",
+    "doc112.txt",
+    "doc87.txt",
+    "doc270.txt",
+    "doc1282.txt",
+    "doc1255.txt",
+    "doc500.txt",
+    "doc46.txt",
+    "doc448.txt",
+    "doc104.txt",
+    "doc267.txt"
   ],
-  "doc1014.txt": [
-    "doc1012.txt",
-    "doc1015.txt",
-    "doc1016.txt"
-  ],
-  "doc431.txt": [
-    "doc235.txt",
-    "doc141.txt",
-    "doc1188.txt",
-    "doc516.txt"
-  ],
-  "doc127.txt": [
-    "doc221.txt",
-    "doc341.txt",
-    "doc965.txt",
-    "doc774.txt"
-  ],
-  "doc1126.txt": [
-    "doc1172.txt"
-  ],
-  "doc105.txt": [
-    "doc382.txt",
-    "doc23.txt",
-    "doc94.txt"
-  ],
-  "doc1234.txt": [
-    "doc369.txt"
-  ],
-  "doc276.txt": [
-    "doc427.txt",
-    "doc1187.txt"
-  ],
-  "doc1199.txt": [
-    "doc355.txt",
-    "doc340.txt",
-    "doc1237.txt",
-    "doc529.txt"
-  ],
-  "doc256.txt": [
-    "doc1364.txt"
-  ],
-  "doc116.txt": [
-    "doc802.txt",
-    "doc659.txt"
-  ],
-  "doc1357.txt": [
-    "doc1358.txt"
-  ],
-  "doc613.txt": [
-    "doc619.txt",
-    "doc143.txt",
-    "doc615.txt",
-    "doc614.txt"
-  ],
-  "doc574.txt": [
-    "doc625.txt",
-    "doc401.txt"
-  ],
-  "doc1116.txt": [
-    "doc1359.txt",
-    "doc1146.txt",
-    "doc1130.txt",
-    "doc1045.txt",
-    "doc842.txt",
-    "doc1046.txt",
-    "doc1293.txt"
-  ],
-  "doc818.txt": [
-    "doc817.txt"
-  ],
-  "doc1074.txt": [
-    "doc803.txt"
-  ],
-  "doc26.txt": [
-    "doc1198.txt",
-    "doc1229.txt",
-    "doc25.txt",
-    "doc707.txt"
-  ],
-  "doc27.txt": [
-    "doc28.txt",
-    "doc20.txt",
-    "doc1186.txt",
-    "doc473.txt",
-    "doc688.txt"
-  ],
-  "doc390.txt": [
-    "doc14.txt",
-    "doc627.txt",
-    "doc595.txt"
-  ],
-  "doc1108.txt": [
-    "doc234.txt",
-    "doc1202.txt",
-    "doc231.txt",
-    "doc1086.txt",
-    "doc304.txt"
-  ],
-  "doc130.txt": [
-    "doc585.txt"
-  ],
-  "doc543.txt": [
-    "doc591.txt",
-    "doc578.txt",
-    "doc237.txt",
-    "doc214.txt",
-    "doc18.txt",
-    "doc589.txt"
-  ],
-  "doc741.txt": [
-    "doc744.txt",
-    "doc740.txt",
-    "doc769.txt",
-    "doc1051.txt",
-    "doc739.txt",
-    "doc932.txt",
-    "doc885.txt"
-  ],
-  "doc118.txt": [
-    "doc750.txt",
-    "doc217.txt"
-  ],
-  "doc1328.txt": [
-    "doc1207.txt"
-  ],
-  "doc513.txt": [
-    "doc791.txt",
-    "doc514.txt"
-  ],
-  "doc956.txt": [
-    "doc1171.txt",
+  "doc179.txt": [
+    "doc1267.txt",
+    "doc242.txt",
+    "doc487.txt",
+    "doc109.txt",
+    "doc309.txt",
+    "doc60.txt",
+    "doc526.txt",
+    "doc1249.txt",
+    "doc1328.txt",
+    "doc73.txt",
+    "doc455.txt",
+    "doc1302.txt",
+    "doc118.txt",
+    "doc124.txt",
+    "doc590.txt",
+    "doc426.txt",
+    "doc397.txt",
+    "doc197.txt",
+    "doc431.txt",
+    "doc230.txt",
     "doc191.txt",
-    "doc1145.txt",
-    "doc1050.txt"
+    "doc609.txt",
+    "doc755.txt",
+    "doc770.txt",
+    "doc228.txt",
+    "doc604.txt",
+    "doc188.txt",
+    "doc229.txt",
+    "doc37.txt",
+    "doc808.txt",
+    "doc1390.txt",
+    "doc404.txt",
+    "doc389.txt",
+    "doc216.txt",
+    "doc603.txt",
+    "doc987.txt",
+    "doc775.txt",
+    "doc985.txt",
+    "doc417.txt",
+    "doc198.txt",
+    "doc600.txt",
+    "doc507.txt",
+    "doc258.txt",
+    "doc299.txt",
+    "doc474.txt",
+    "doc1083.txt",
+    "doc2.txt"
   ],
-  "doc502.txt": [
-    "doc16.txt",
-    "doc377.txt",
-    "doc538.txt",
-    "doc271.txt"
-  ],
-  "doc785.txt": [
-    "doc381.txt"
-  ],
-  "doc41.txt": [
-    "doc418.txt"
-  ],
-  "doc436.txt": [
-    "doc356.txt",
-    "doc438.txt"
-  ],
-  "doc646.txt": [
-    "doc342.txt"
-  ],
-  "doc454.txt": [
-    "doc424.txt",
-    "doc425.txt",
-    "doc551.txt"
-  ],
-  "doc44.txt": [
-    "doc1373.txt",
-    "doc87.txt"
-  ],
-  "doc816.txt": [
-    "doc815.txt",
-    "doc812.txt",
-    "doc1214.txt"
-  ],
-  "doc1257.txt": [
-    "doc183.txt",
-    "doc995.txt",
-    "doc471.txt"
-  ],
-  "doc699.txt": [
+  "doc52.txt": [
+    "doc901.txt",
+    "doc1266.txt",
+    "doc902.txt",
+    "doc916.txt",
+    "doc1066.txt",
+    "doc679.txt",
+    "doc678.txt",
+    "doc1339.txt",
+    "doc917.txt",
+    "doc250.txt",
+    "doc683.txt",
+    "doc682.txt",
+    "doc251.txt",
+    "doc1289.txt",
+    "doc723.txt",
+    "doc1048.txt",
+    "doc247.txt",
+    "doc67.txt",
+    "doc680.txt",
+    "doc246.txt",
+    "doc779.txt",
+    "doc433.txt",
+    "doc194.txt",
+    "doc156.txt",
+    "doc432.txt",
+    "doc793.txt",
+    "doc1207.txt",
+    "doc791.txt",
+    "doc752.txt",
+    "doc222.txt",
     "doc632.txt",
+    "doc545.txt",
+    "doc780.txt",
+    "doc227.txt",
+    "doc1362.txt",
+    "doc420.txt",
+    "doc226.txt",
+    "doc797.txt",
+    "doc783.txt",
+    "doc1361.txt",
+    "doc147.txt",
+    "doc599.txt",
+    "doc214.txt",
+    "doc200.txt",
+    "doc1024.txt",
+    "doc1186.txt",
+    "doc945.txt",
+    "doc428.txt",
+    "doc1343.txt",
+    "doc1342.txt",
+    "doc561.txt",
+    "doc749.txt",
+    "doc205.txt",
+    "doc1246.txt",
+    "doc920.txt",
+    "doc288.txt",
+    "doc277.txt",
+    "doc465.txt",
     "doc698.txt",
-    "doc1332.txt",
+    "doc673.txt",
     "doc1333.txt",
-    "doc701.txt",
+    "doc464.txt",
+    "doc42.txt",
+    "doc923.txt",
+    "doc704.txt",
+    "doc512.txt",
+    "doc1331.txt",
+    "doc895.txt",
+    "doc513.txt",
     "doc1334.txt",
     "doc674.txt",
     "doc700.txt",
-    "doc702.txt"
+    "doc919.txt",
+    "doc1243.txt",
+    "doc1337.txt",
+    "doc676.txt",
+    "doc1322.txt",
+    "doc924.txt"
   ],
-  "doc1306.txt": [
-    "doc626.txt"
-  ],
-  "doc736.txt": [
-    "doc1398.txt"
-  ],
-  "doc1396.txt": [
-    "doc1399.txt",
+  "doc953.txt": [
+    "doc929.txt",
+    "doc848.txt",
+    "doc1138.txt",
+    "doc928.txt",
+    "doc889.txt",
+    "doc1067.txt",
+    "doc1117.txt",
+    "doc910.txt",
+    "doc1128.txt",
+    "doc1171.txt",
     "doc1400.txt",
-    "doc419.txt",
-    "doc392.txt",
-    "doc412.txt",
-    "doc400.txt",
-    "doc1397.txt"
-  ],
-  "doc518.txt": [
-    "doc169.txt"
-  ],
-  "doc1211.txt": [
-    "doc182.txt",
-    "doc1381.txt",
-    "doc40.txt"
-  ],
-  "doc831.txt": [
-    "doc828.txt",
-    "doc830.txt",
-    "doc827.txt",
-    "doc1294.txt"
-  ],
-  "doc17.txt": [
-    "doc1372.txt",
-    "doc460.txt"
-  ],
-  "doc1163.txt": [
-    "doc1164.txt",
-    "doc1162.txt",
-    "doc638.txt",
-    "doc1169.txt"
-  ],
-  "doc458.txt": [
-    "doc579.txt"
-  ],
-  "doc754.txt": [
-    "doc586.txt",
-    "doc784.txt",
-    "doc789.txt"
-  ],
-  "doc949.txt": [
-    "doc1010.txt"
-  ],
-  "doc1288.txt": [
-    "doc974.txt",
-    "doc1326.txt",
-    "doc507.txt"
-  ],
-  "doc814.txt": [
-    "doc1206.txt"
-  ],
-  "doc1345.txt": [
-    "doc958.txt",
-    "doc163.txt",
-    "doc1344.txt",
-    "doc1346.txt",
-    "doc164.txt",
-    "doc274.txt",
-    "doc275.txt"
-  ],
-  "doc139.txt": [
-    "doc964.txt",
-    "doc1082.txt"
-  ],
-  "doc696.txt": [
-    "doc970.txt",
-    "doc636.txt"
-  ],
-  "doc1001.txt": [
-    "doc1000.txt",
-    "doc999.txt",
-    "doc1378.txt",
-    "doc759.txt",
-    "doc947.txt",
-    "doc713.txt"
-  ],
-  "doc1393.txt": [
-    "doc555.txt",
-    "doc559.txt",
-    "doc666.txt",
-    "doc670.txt"
-  ],
-  "doc158.txt": [
-    "doc13.txt"
-  ],
-  "doc1295.txt": [
-    "doc1160.txt"
-  ],
-  "doc807.txt": [
-    "doc810.txt",
-    "doc805.txt",
-    "doc811.txt",
-    "doc806.txt"
-  ],
-  "doc1361.txt": [
-    "doc1362.txt",
-    "doc756.txt",
-    "doc1056.txt",
-    "doc47.txt"
-  ],
-  "doc703.txt": [
-    "doc637.txt"
-  ],
-  "doc928.txt": [
+    "doc1038.txt",
     "doc839.txt",
+    "doc1175.txt",
+    "doc769.txt",
+    "doc943.txt",
+    "doc764.txt",
+    "doc412.txt",
+    "doc765.txt",
+    "doc954.txt",
+    "doc955.txt",
+    "doc1034.txt",
     "doc763.txt",
-    "doc1136.txt"
+    "doc952.txt",
+    "doc1036.txt",
+    "doc826.txt",
+    "doc1397.txt",
+    "doc1396.txt",
+    "doc908.txt",
+    "doc841.txt",
+    "doc843.txt",
+    "doc1042.txt",
+    "doc852.txt",
+    "doc846.txt",
+    "doc885.txt",
+    "doc890.txt",
+    "doc847.txt",
+    "doc851.txt",
+    "doc887.txt",
+    "doc844.txt",
+    "doc1068.txt"
   ],
-  "doc975.txt": [
-    "doc193.txt",
-    "doc583.txt"
+  "doc734.txt": [
+    "doc732.txt",
+    "doc647.txt",
+    "doc733.txt",
+    "doc731.txt",
+    "doc730.txt",
+    "doc641.txt",
+    "doc735.txt",
+    "doc737.txt",
+    "doc1173.txt",
+    "doc592.txt",
+    "doc422.txt",
+    "doc374.txt",
+    "doc1387.txt",
+    "doc607.txt",
+    "doc777.txt",
+    "doc934.txt",
+    "doc854.txt",
+    "doc855.txt",
+    "doc738.txt",
+    "doc1047.txt",
+    "doc842.txt",
+    "doc107.txt",
+    "doc648.txt",
+    "doc850.txt",
+    "doc313.txt",
+    "doc1054.txt"
   ],
-  "doc492.txt": [
-    "doc434.txt"
-  ],
-  "doc1301.txt": [
-    "doc1149.txt",
-    "doc498.txt",
-    "doc106.txt"
-  ],
-  "doc982.txt": [
-    "doc554.txt",
-    "doc1348.txt",
-    "doc980.txt",
-    "doc1379.txt",
-    "doc944.txt",
-    "doc82.txt"
-  ],
-  "doc544.txt": [
-    "doc597.txt",
-    "doc203.txt"
-  ],
-  "doc197.txt": [
-    "doc795.txt"
-  ],
-  "doc924.txt": [
-    "doc783.txt",
-    "doc200.txt",
-    "doc923.txt"
-  ],
-  "doc1007.txt": [
-    "doc998.txt",
-    "doc68.txt"
-  ],
-  "doc1009.txt": [
-    "doc1003.txt"
-  ],
-  "doc370.txt": [
-    "doc556.txt",
-    "doc19.txt"
-  ],
-  "doc963.txt": [
-    "doc542.txt",
-    "doc153.txt"
-  ],
-  "doc1175.txt": [
-    "doc224.txt"
-  ],
-  "doc721.txt": [
-    "doc218.txt",
-    "doc608.txt",
-    "doc129.txt",
-    "doc1244.txt"
-  ],
-  "doc910.txt": [
-    "doc1177.txt",
-    "doc728.txt"
-  ],
-  "doc644.txt": [
-    "doc422.txt"
-  ],
-  "doc166.txt": [
-    "doc185.txt",
+  "doc1312.txt": [
+    "doc1298.txt",
+    "doc1139.txt",
+    "doc478.txt",
+    "doc1313.txt",
+    "doc490.txt",
+    "doc903.txt",
+    "doc1077.txt",
+    "doc64.txt",
+    "doc456.txt",
+    "doc1315.txt",
+    "doc132.txt",
+    "doc1314.txt",
+    "doc319.txt",
+    "doc71.txt",
+    "doc65.txt",
+    "doc1274.txt",
+    "doc1248.txt",
+    "doc1276.txt",
+    "doc482.txt",
+    "doc1316.txt",
+    "doc1317.txt",
+    "doc1199.txt",
+    "doc975.txt",
+    "doc1376.txt",
+    "doc1389.txt",
+    "doc178.txt",
+    "doc805.txt",
+    "doc1203.txt",
+    "doc1003.txt",
+    "doc807.txt",
+    "doc190.txt",
+    "doc437.txt",
+    "doc439.txt",
+    "doc411.txt",
+    "doc405.txt",
+    "doc612.txt",
+    "doc1237.txt",
+    "doc170.txt",
+    "doc171.txt",
+    "doc401.txt",
+    "doc1140.txt",
+    "doc575.txt",
+    "doc1208.txt",
+    "doc1156.txt",
+    "doc403.txt",
     "doc167.txt",
-    "doc488.txt",
+    "doc402.txt",
+    "doc1157.txt",
+    "doc1252.txt",
+    "doc263.txt",
+    "doc868.txt",
+    "doc667.txt",
+    "doc1286.txt",
+    "doc1319.txt",
+    "doc665.txt",
+    "doc259.txt",
     "doc110.txt"
   ],
-  "doc695.txt": [
-    "doc1349.txt",
-    "doc177.txt",
-    "doc1232.txt",
-    "doc997.txt",
-    "doc993.txt",
-    "doc946.txt",
-    "doc1195.txt",
-    "doc1093.txt"
-  ],
-  "doc156.txt": [
-    "doc152.txt",
-    "doc1369.txt",
-    "doc506.txt"
-  ],
-  "doc622.txt": [
-    "doc621.txt",
-    "doc616.txt"
-  ],
-  "doc1179.txt": [
-    "doc1189.txt",
-    "doc160.txt",
-    "doc93.txt"
-  ],
-  "doc107.txt": [
-    "doc11.txt",
-    "doc477.txt",
-    "doc475.txt"
-  ],
-  "doc1273.txt": [
-    "doc386.txt"
-  ],
-  "doc1285.txt": [
-    "doc225.txt"
-  ],
-  "doc273.txt": [
-    "doc557.txt",
-    "doc921.txt"
-  ],
-  "doc101.txt": [
-    "doc1002.txt",
-    "doc1226.txt",
-    "doc85.txt"
-  ],
-  "doc594.txt": [
-    "doc755.txt",
-    "doc374.txt"
-  ],
-  "doc973.txt": [
-    "doc972.txt"
-  ],
-  "doc1217.txt": [
-    "doc1219.txt"
-  ],
-  "doc1125.txt": [
-    "doc1033.txt",
-    "doc855.txt",
-    "doc1057.txt"
-  ],
-  "doc1063.txt": [
-    "doc228.txt",
-    "doc1087.txt"
-  ],
-  "doc539.txt": [
-    "doc566.txt"
-  ],
-  "doc966.txt": [
-    "doc1184.txt"
-  ],
-  "doc581.txt": [
-    "doc837.txt"
-  ],
-  "doc188.txt": [
-    "doc189.txt"
-  ],
-  "doc618.txt": [
-    "doc162.txt",
-    "doc510.txt"
-  ],
-  "doc430.txt": [
-    "doc604.txt",
-    "doc429.txt",
-    "doc466.txt"
-  ],
-  "doc307.txt": [
-    "doc611.txt",
-    "doc606.txt",
-    "doc115.txt",
-    "doc1079.txt",
-    "doc249.txt"
-  ],
-  "doc863.txt": [
+  "doc497.txt": [
+    "doc726.txt",
+    "doc875.txt",
+    "doc646.txt",
+    "doc725.txt",
+    "doc75.txt",
+    "doc724.txt",
+    "doc720.txt",
+    "doc481.txt",
+    "doc640.txt",
+    "doc253.txt",
+    "doc870.txt",
+    "doc865.txt",
+    "doc66.txt",
+    "doc962.txt",
+    "doc1012.txt",
+    "doc29.txt",
+    "doc195.txt",
+    "doc1039.txt",
+    "doc395.txt",
+    "doc579.txt",
+    "doc13.txt",
+    "doc144.txt",
+    "doc811.txt",
+    "doc12.txt",
+    "doc756.txt",
+    "doc1217.txt",
+    "doc581.txt",
+    "doc580.txt",
+    "doc980.txt",
+    "doc837.txt",
     "doc836.txt",
-    "doc1055.txt"
+    "doc1344.txt",
+    "doc1146.txt",
+    "doc767.txt",
+    "doc606.txt",
+    "doc835.txt",
+    "doc1019.txt",
+    "doc982.txt",
+    "doc762.txt",
+    "doc31.txt",
+    "doc833.txt",
+    "doc30.txt",
+    "doc707.txt",
+    "doc883.txt",
+    "doc100.txt",
+    "doc869.txt",
+    "doc95.txt",
+    "doc1279.txt",
+    "doc102.txt",
+    "doc881.txt",
+    "doc82.txt",
+    "doc729.txt",
+    "doc51.txt",
+    "doc463.txt",
+    "doc884.txt",
+    "doc462.txt",
+    "doc78.txt",
+    "doc91.txt",
+    "doc90.txt",
+    "doc47.txt"
   ],
-  "doc1122.txt": [
-    "doc822.txt"
+  "doc1052.txt": [
+    "doc1071.txt",
+    "doc450.txt",
+    "doc718.txt",
+    "doc898.txt",
+    "doc871.txt",
+    "doc1172.txt",
+    "doc1013.txt",
+    "doc744.txt",
+    "doc828.txt",
+    "doc743.txt",
+    "doc1028.txt",
+    "doc1014.txt",
+    "doc1174.txt",
+    "doc1029.txt",
+    "doc742.txt",
+    "doc740.txt",
+    "doc1017.txt",
+    "doc741.txt",
+    "doc1026.txt",
+    "doc1030.txt",
+    "doc1021.txt",
+    "doc1020.txt",
+    "doc1037.txt",
+    "doc1044.txt",
+    "doc1118.txt",
+    "doc1051.txt",
+    "doc935.txt",
+    "doc1126.txt",
+    "doc739.txt",
+    "doc926.txt",
+    "doc1123.txt",
+    "doc1137.txt",
+    "doc1043.txt",
+    "doc931.txt",
+    "doc1294.txt",
+    "doc1135.txt",
+    "doc886.txt",
+    "doc1134.txt",
+    "doc1295.txt",
+    "doc930.txt"
   ],
-  "doc663.txt": [
-    "doc361.txt"
-  ],
-  "doc483.txt": [
-    "doc35.txt",
-    "doc501.txt"
-  ],
-  "doc332.txt": [
-    "doc573.txt",
-    "doc577.txt"
-  ],
-  "doc952.txt": [
-    "doc1032.txt"
-  ],
-  "doc1068.txt": [
-    "doc765.txt"
-  ],
-  "doc775.txt": [
-    "doc771.txt",
-    "doc1083.txt"
-  ],
-  "doc1351.txt": [
-    "doc1218.txt",
-    "doc1292.txt"
-  ],
-  "doc291.txt": [
-    "doc798.txt",
-    "doc996.txt",
-    "doc358.txt"
-  ],
-  "doc1039.txt": [
-    "doc954.txt"
-  ],
-  "doc393.txt": [
-    "doc388.txt",
-    "doc664.txt",
-    "doc4.txt"
-  ],
-  "doc266.txt": [
-    "doc1193.txt"
-  ],
-  "doc444.txt": [
-    "doc363.txt",
-    "doc362.txt"
-  ],
-  "doc1119.txt": [
-    "doc820.txt",
-    "doc819.txt",
-    "doc843.txt"
-  ],
-  "doc128.txt": [
-    "doc149.txt"
-  ],
-  "doc808.txt": [
-    "doc809.txt"
-  ],
-  "doc758.txt": [
-    "doc1347.txt"
-  ],
-  "doc336.txt": [
-    "doc376.txt"
-  ],
-  "doc523.txt": [
-    "doc1151.txt"
-  ],
-  "doc592.txt": [
-    "doc216.txt"
-  ],
-  "doc821.txt": [
-    "doc1019.txt"
-  ],
-  "doc1017.txt": [
-    "doc1025.txt"
-  ],
-  "doc840.txt": [
-    "doc955.txt"
-  ],
-  "doc1013.txt": [
-    "doc951.txt"
-  ],
-  "doc835.txt": [
-    "doc762.txt"
-  ],
-  "doc945.txt": [
-    "doc986.txt"
-  ],
-  "doc1352.txt": [
-    "doc992.txt"
-  ],
-  "doc215.txt": [
-    "doc212.txt",
-    "doc213.txt",
-    "doc511.txt"
-  ],
-  "doc67.txt": [
-    "doc32.txt",
-    "doc716.txt"
-  ],
-  "doc1159.txt": [
-    "doc372.txt"
-  ],
-  "doc760.txt": [
-    "doc825.txt",
-    "doc824.txt"
-  ],
-  "doc602.txt": [
-    "doc603.txt"
-  ],
-  "doc548.txt": [
-    "doc617.txt"
-  ],
-  "doc1155.txt": [
-    "doc1154.txt"
-  ],
-  "doc1282.txt": [
-    "doc1236.txt"
-  ],
-  "doc1276.txt": [
-    "doc1208.txt"
-  ],
-  "doc1037.txt": [
-    "doc1036.txt",
-    "doc1042.txt"
-  ],
-  "doc174.txt": [
-    "doc1142.txt",
-    "doc173.txt"
-  ],
-  "doc298.txt": [
-    "doc1181.txt",
-    "doc1253.txt",
-    "doc299.txt"
+  "doc979.txt": [
+    "doc1065.txt",
+    "doc89.txt",
+    "doc1307.txt",
+    "doc121.txt",
+    "doc690.txt",
+    "doc123.txt",
+    "doc446.txt",
+    "doc1107.txt",
+    "doc58.txt",
+    "doc126.txt",
+    "doc1300.txt",
+    "doc976.txt",
+    "doc1204.txt",
+    "doc382.txt",
+    "doc220.txt",
+    "doc154.txt",
+    "doc626.txt",
+    "doc17.txt",
+    "doc1202.txt",
+    "doc409.txt",
+    "doc186.txt",
+    "doc1001.txt",
+    "doc378.txt",
+    "doc999.txt",
+    "doc1225.txt",
+    "doc189.txt",
+    "doc1378.txt",
+    "doc1152.txt",
+    "doc1141.txt",
+    "doc1196.txt",
+    "doc1183.txt",
+    "doc1234.txt",
+    "doc211.txt",
+    "doc563.txt",
+    "doc371.txt",
+    "doc666.txt",
+    "doc289.txt",
+    "doc1284.txt",
+    "doc97.txt",
+    "doc670.txt",
+    "doc301.txt",
+    "doc45.txt",
+    "doc44.txt",
+    "doc1080.txt",
+    "doc514.txt"
   ],
   "doc536.txt": [
-    "doc1368.txt"
+    "doc295.txt",
+    "doc294.txt",
+    "doc960.txt",
+    "doc543.txt",
+    "doc598.txt",
+    "doc558.txt",
+    "doc1368.txt",
+    "doc83.txt",
+    "doc1318.txt",
+    "doc138.txt"
   ],
-  "doc312.txt": [
-    "doc198.txt"
+  "doc518.txt": [
+    "doc281.txt",
+    "doc485.txt",
+    "doc1088.txt",
+    "doc480.txt",
+    "doc119.txt",
+    "doc584.txt",
+    "doc181.txt",
+    "doc168.txt",
+    "doc169.txt",
+    "doc1158.txt",
+    "doc353.txt",
+    "doc185.txt",
+    "doc1190.txt",
+    "doc22.txt",
+    "doc399.txt",
+    "doc944.txt",
+    "doc978.txt",
+    "doc6.txt",
+    "doc477.txt"
   ],
-  "doc794.txt": [
-    "doc1340.txt",
-    "doc675.txt",
-    "doc1.txt"
+  "doc265.txt": [
+    "doc256.txt",
+    "doc900.txt",
+    "doc335.txt",
+    "doc278.txt",
+    "doc330.txt",
+    "doc899.txt",
+    "doc331.txt",
+    "doc286.txt",
+    "doc1114.txt",
+    "doc291.txt",
+    "doc1364.txt",
+    "doc757.txt",
+    "doc1363.txt",
+    "doc345.txt",
+    "doc798.txt",
+    "doc415.txt",
+    "doc358.txt",
+    "doc416.txt",
+    "doc249.txt",
+    "doc1321.txt",
+    "doc489.txt",
+    "doc716.txt",
+    "doc892.txt"
   ],
-  "doc1384.txt": [
-    "doc1383.txt",
-    "doc1287.txt"
+  "doc593.txt": [
+    "doc530.txt",
+    "doc1111.txt",
+    "doc685.txt",
+    "doc874.txt",
+    "doc914.txt",
+    "doc1272.txt",
+    "doc719.txt",
+    "doc876.txt",
+    "doc1338.txt",
+    "doc686.txt",
+    "doc70.txt",
+    "doc442.txt",
+    "doc521.txt",
+    "doc496.txt",
+    "doc858.txt",
+    "doc864.txt",
+    "doc643.txt",
+    "doc130.txt",
+    "doc859.txt",
+    "doc285.txt",
+    "doc1210.txt",
+    "doc15.txt",
+    "doc14.txt",
+    "doc746.txt",
+    "doc627.txt",
+    "doc380.txt",
+    "doc753.txt",
+    "doc747.txt",
+    "doc948.txt",
+    "doc390.txt",
+    "doc193.txt",
+    "doc391.txt",
+    "doc232.txt",
+    "doc781.txt",
+    "doc595.txt",
+    "doc634.txt",
+    "doc20.txt",
+    "doc201.txt",
+    "doc821.txt",
+    "doc362.txt",
+    "doc202.txt",
+    "doc766.txt",
+    "doc1233.txt",
+    "doc27.txt",
+    "doc1008.txt",
+    "doc1341.txt",
+    "doc1124.txt",
+    "doc470.txt",
+    "doc1290.txt",
+    "doc880.txt",
+    "doc856.txt",
+    "doc467.txt",
+    "doc473.txt",
+    "doc701.txt",
+    "doc879.txt",
+    "doc878.txt"
   ],
-  "doc515.txt": [
-    "doc833.txt"
+  "doc1159.txt": [
+    "doc524.txt",
+    "doc1104.txt",
+    "doc1258.txt",
+    "doc269.txt",
+    "doc533.txt",
+    "doc61.txt",
+    "doc283.txt",
+    "doc522.txt",
+    "doc668.txt",
+    "doc912.txt",
+    "doc509.txt",
+    "doc483.txt",
+    "doc786.txt",
+    "doc355.txt",
+    "doc552.txt",
+    "doc787.txt",
+    "doc785.txt",
+    "doc343.txt",
+    "doc784.txt",
+    "doc555.txt",
+    "doc347.txt",
+    "doc623.txt",
+    "doc1161.txt",
+    "doc554.txt",
+    "doc754.txt",
+    "doc635.txt",
+    "doc812.txt",
+    "doc1002.txt",
+    "doc566.txt",
+    "doc1191.txt",
+    "doc1185.txt",
+    "doc983.txt",
+    "doc565.txt",
+    "doc571.txt",
+    "doc809.txt",
+    "doc438.txt",
+    "doc564.txt",
+    "doc789.txt",
+    "doc776.txt",
+    "doc986.txt",
+    "doc372.txt",
+    "doc366.txt",
+    "doc1394.txt",
+    "doc615.txt",
+    "doc628.txt",
+    "doc1143.txt",
+    "doc539.txt",
+    "doc1045.txt",
+    "doc5.txt",
+    "doc274.txt",
+    "doc68.txt",
+    "doc116.txt",
+    "doc659.txt",
+    "doc1046.txt",
+    "doc1283.txt",
+    "doc1081.txt",
+    "doc1069.txt",
+    "doc845.txt",
+    "doc689.txt",
+    "doc105.txt",
+    "doc84.txt",
+    "doc1256.txt"
   ],
-  "doc452.txt": [
-    "doc1194.txt",
-    "doc1330.txt"
+  "doc273.txt": [
+    "doc1105.txt",
+    "doc1305.txt",
+    "doc297.txt",
+    "doc1259.txt",
+    "doc318.txt",
+    "doc669.txt",
+    "doc494.txt",
+    "doc332.txt",
+    "doc1006.txt",
+    "doc369.txt",
+    "doc1198.txt",
+    "doc1373.txt",
+    "doc801.txt",
+    "doc1160.txt",
+    "doc421.txt",
+    "doc1377.txt",
+    "doc1189.txt",
+    "doc557.txt",
+    "doc35.txt",
+    "doc1224.txt",
+    "doc161.txt",
+    "doc1179.txt",
+    "doc1151.txt",
+    "doc1197.txt",
+    "doc25.txt",
+    "doc1181.txt",
+    "doc601.txt",
+    "doc921.txt",
+    "doc1085.txt",
+    "doc93.txt",
+    "doc501.txt"
   ],
-  "doc1374.txt": [
-    "doc1180.txt"
-  ],
-  "doc1240.txt": [
-    "doc364.txt"
-  ],
-  "doc132.txt": [
-    "doc402.txt",
-    "doc517.txt"
-  ],
-  "doc463.txt": [
-    "doc30.txt",
-    "doc462.txt"
-  ],
-  "doc723.txt": [
-    "doc908.txt"
-  ],
-  "doc1081.txt": [
-    "doc1078.txt",
-    "doc1085.txt"
-  ],
-  "doc24.txt": [
-    "doc303.txt",
-    "doc1296.txt"
-  ],
-  "doc236.txt": [
-    "doc317.txt"
-  ],
-  "doc851.txt": [
-    "doc854.txt",
-    "doc852.txt"
-  ],
-  "doc936.txt": [
-    "doc841.txt",
-    "doc937.txt",
-    "doc853.txt",
-    "doc1123.txt",
-    "doc850.txt"
-  ],
-  "doc379.txt": [
-    "doc706.txt"
-  ],
-  "doc680.txt": [
-    "doc512.txt"
-  ],
-  "doc161.txt": [
-    "doc117.txt"
-  ],
-  "doc563.txt": [
-    "doc261.txt"
-  ],
-  "doc1280.txt": [
-    "doc705.txt",
-    "doc677.txt"
-  ],
-  "doc610.txt": [
-    "doc1250.txt"
-  ],
-  "doc146.txt": [
-    "doc922.txt"
-  ],
-  "doc773.txt": [
-    "doc1254.txt"
-  ],
-  "doc66.txt": [
-    "doc729.txt"
-  ],
-  "doc1205.txt": [
-    "doc79.txt",
-    "doc272.txt"
-  ],
-  "doc1228.txt": [
-    "doc311.txt"
-  ],
-  "doc1223.txt": [
-    "doc86.txt"
-  ],
-  "doc284.txt": [
-    "doc1320.txt"
-  ],
-  "doc886.txt": [
-    "doc890.txt",
-    "doc887.txt"
-  ],
-  "doc1322.txt": [
-    "doc1321.txt"
-  ],
-  "doc472.txt": [
-    "doc1269.txt"
-  ],
-  "doc895.txt": [
-    "doc919.txt",
+  "doc696.txt": [
+    "doc76.txt",
+    "doc243.txt",
+    "doc519.txt",
+    "doc282.txt",
+    "doc453.txt",
+    "doc692.txt",
+    "doc650.txt",
+    "doc136.txt",
+    "doc693.txt",
+    "doc877.txt",
+    "doc1265.txt",
+    "doc1103.txt",
+    "doc697.txt",
+    "doc127.txt",
+    "doc1102.txt",
+    "doc245.txt",
+    "doc721.txt",
+    "doc284.txt",
+    "doc694.txt",
+    "doc131.txt",
+    "doc695.txt",
+    "doc1101.txt",
+    "doc1061.txt",
+    "doc1075.txt",
+    "doc722.txt",
+    "doc341.txt",
+    "doc750.txt",
+    "doc1239.txt",
+    "doc961.txt",
+    "doc794.txt",
+    "doc970.txt",
+    "doc636.txt",
+    "doc971.txt",
+    "doc218.txt",
+    "doc350.txt",
+    "doc1349.txt",
+    "doc219.txt",
+    "doc972.txt",
+    "doc994.txt",
+    "doc1351.txt",
+    "doc162.txt",
+    "doc176.txt",
+    "doc177.txt",
+    "doc1350.txt",
+    "doc942.txt",
+    "doc1232.txt",
+    "doc968.txt",
+    "doc997.txt",
+    "doc1187.txt",
+    "doc1352.txt",
+    "doc174.txt",
+    "doc1353.txt",
+    "doc772.txt",
+    "doc1223.txt",
+    "doc992.txt",
+    "doc213.txt",
+    "doc993.txt",
+    "doc946.txt",
+    "doc991.txt",
+    "doc1354.txt",
+    "doc173.txt",
+    "doc172.txt",
+    "doc1093.txt",
+    "doc1326.txt",
+    "doc1332.txt",
+    "doc129.txt",
+    "doc699.txt",
+    "doc276.txt",
+    "doc1092.txt",
+    "doc909.txt",
+    "doc1292.txt",
+    "doc1244.txt",
+    "doc86.txt",
+    "doc1320.txt",
+    "doc1.txt",
+    "doc1280.txt",
+    "doc1096.txt",
+    "doc677.txt",
     "doc918.txt"
   ],
-  "doc1247.txt": [
-    "doc1243.txt"
+  "doc140.txt": [
+    "doc493.txt",
+    "doc120.txt",
+    "doc74.txt",
+    "doc254.txt",
+    "doc1261.txt",
+    "doc9.txt",
+    "doc655.txt",
+    "doc906.txt",
+    "doc904.txt",
+    "doc125.txt",
+    "doc99.txt",
+    "doc905.txt",
+    "doc547.txt",
+    "doc340.txt",
+    "doc546.txt",
+    "doc550.txt",
+    "doc829.txt",
+    "doc223.txt",
+    "doc1004.txt",
+    "doc964.txt",
+    "doc151.txt",
+    "doc145.txt",
+    "doc346.txt",
+    "doc568.txt",
+    "doc10.txt",
+    "doc1033.txt",
+    "doc1147.txt",
+    "doc348.txt",
+    "doc413.txt",
+    "doc23.txt",
+    "doc175.txt",
+    "doc1227.txt",
+    "doc560.txt",
+    "doc165.txt",
+    "doc398.txt",
+    "doc549.txt",
+    "doc788.txt",
+    "doc239.txt",
+    "doc1355.txt",
+    "doc238.txt",
+    "doc1235.txt",
+    "doc260.txt",
+    "doc261.txt",
+    "doc660.txt",
+    "doc1082.txt",
+    "doc893.txt",
+    "doc139.txt",
+    "doc529.txt"
   ],
-  "doc442.txt": [
-    "doc1337.txt"
+  "doc150.txt": [
+    "doc322.txt",
+    "doc684.txt",
+    "doc479.txt",
+    "doc1270.txt",
+    "doc527.txt",
+    "doc255.txt",
+    "doc321.txt",
+    "doc651.txt",
+    "doc320.txt",
+    "doc452.txt",
+    "doc240.txt",
+    "doc1073.txt",
+    "doc457.txt",
+    "doc1260.txt",
+    "doc681.txt",
+    "doc72.txt",
+    "doc1365.txt",
+    "doc383.txt",
+    "doc778.txt",
+    "doc977.txt",
+    "doc16.txt",
+    "doc356.txt",
+    "doc155.txt",
+    "doc1216.txt",
+    "doc637.txt",
+    "doc1388.txt",
+    "doc959.txt",
+    "doc771.txt",
+    "doc940.txt",
+    "doc377.txt",
+    "doc149.txt",
+    "doc1385.txt",
+    "doc1384.txt",
+    "doc148.txt",
+    "doc1182.txt",
+    "doc365.txt",
+    "doc832.txt",
+    "doc1382.txt",
+    "doc538.txt",
+    "doc1086.txt",
+    "doc1330.txt",
+    "doc705.txt",
+    "doc1240.txt",
+    "doc339.txt",
+    "doc476.txt",
+    "doc111.txt",
+    "doc461.txt",
+    "doc703.txt"
   ],
-  "doc876.txt": [
-    "doc1336.txt"
+  "doc441.txt": [
+    "doc444.txt",
+    "doc445.txt",
+    "doc484.txt",
+    "doc137.txt",
+    "doc687.txt",
+    "doc1113.txt",
+    "doc1329.txt",
+    "doc866.txt",
+    "doc443.txt",
+    "doc440.txt",
+    "doc1115.txt",
+    "doc1277.txt",
+    "doc427.txt",
+    "doc816.txt",
+    "doc578.txt",
+    "doc544.txt",
+    "doc790.txt",
+    "doc597.txt",
+    "doc39.txt",
+    "doc1214.txt",
+    "doc1018.txt",
+    "doc363.txt",
+    "doc207.txt",
+    "doc588.txt",
+    "doc199.txt",
+    "doc204.txt",
+    "doc576.txt",
+    "doc589.txt",
+    "doc882.txt",
+    "doc517.txt",
+    "doc702.txt",
+    "doc312.txt",
+    "doc1336.txt",
+    "doc515.txt"
   ],
-  "doc660.txt": [
+  "doc1301.txt": [
+    "doc336.txt",
+    "doc849.txt",
+    "doc531.txt",
+    "doc1072.txt",
+    "doc241.txt",
+    "doc1112.txt",
+    "doc447.txt",
+    "doc1271.txt",
+    "doc279.txt",
+    "doc523.txt",
+    "doc1076.txt",
+    "doc292.txt",
+    "doc535.txt",
+    "doc468.txt",
+    "doc326.txt",
+    "doc1263.txt",
+    "doc989.txt",
+    "doc553.txt",
+    "doc802.txt",
+    "doc803.txt",
+    "doc585.txt",
+    "doc988.txt",
+    "doc381.txt",
+    "doc196.txt",
+    "doc1366.txt",
+    "doc1372.txt",
+    "doc384.txt",
+    "doc435.txt",
+    "doc192.txt",
+    "doc1149.txt",
+    "doc1201.txt",
+    "doc344.txt",
+    "doc146.txt",
+    "doc231.txt",
+    "doc1228.txt",
+    "doc406.txt",
+    "doc360.txt",
+    "doc611.txt",
+    "doc1393.txt",
+    "doc375.txt",
+    "doc349.txt",
+    "doc559.txt",
+    "doc410.txt",
+    "doc376.txt",
+    "doc36.txt",
+    "doc414.txt",
+    "doc1383.txt",
+    "doc364.txt",
+    "doc562.txt",
+    "doc990.txt",
+    "doc94.txt",
+    "doc459.txt",
+    "doc458.txt",
+    "doc706.txt",
+    "doc1247.txt",
+    "doc248.txt",
+    "doc54.txt",
+    "doc472.txt",
+    "doc671.txt",
+    "doc498.txt",
+    "doc4.txt",
+    "doc922.txt",
+    "doc1268.txt",
+    "doc271.txt",
+    "doc106.txt",
+    "doc50.txt",
+    "doc502.txt",
+    "doc1241.txt",
+    "doc927.txt",
+    "doc3.txt",
+    "doc266.txt",
+    "doc528.txt",
+    "doc1109.txt",
+    "doc460.txt",
+    "doc306.txt",
+    "doc662.txt",
+    "doc475.txt",
+    "doc1108.txt",
+    "doc1281.txt"
+  ],
+  "doc949.txt": [
+    "doc861.txt",
+    "doc108.txt",
+    "doc1099.txt",
+    "doc1098.txt",
+    "doc1100.txt",
+    "doc157.txt",
+    "doc630.txt",
+    "doc1007.txt",
+    "doc1011.txt",
+    "doc1010.txt",
+    "doc965.txt",
+    "doc998.txt",
+    "doc436.txt",
+    "doc1348.txt",
+    "doc163.txt",
+    "doc981.txt",
+    "doc1230.txt",
+    "doc1226.txt",
+    "doc217.txt",
+    "doc1009.txt",
+    "doc158.txt",
+    "doc1236.txt",
+    "doc774.txt",
+    "doc302.txt",
+    "doc328.txt",
+    "doc1269.txt"
+  ],
+  "doc236.txt": [
+    "doc691.txt",
+    "doc645.txt",
+    "doc1275.txt",
+    "doc873.txt",
+    "doc656.txt",
+    "doc221.txt",
+    "doc396.txt",
+    "doc591.txt",
+    "doc587.txt",
+    "doc541.txt",
+    "doc583.txt",
+    "doc1374.txt",
+    "doc574.txt",
+    "doc159.txt",
+    "doc166.txt",
+    "doc1180.txt",
+    "doc24.txt",
+    "doc1209.txt",
+    "doc317.txt",
+    "doc101.txt",
+    "doc1245.txt",
+    "doc488.txt",
+    "doc1335.txt",
+    "doc1296.txt"
+  ],
+  "doc63.txt": [
+    "doc134.txt",
+    "doc525.txt",
+    "doc1299.txt",
+    "doc1310.txt",
+    "doc1311.txt",
+    "doc133.txt",
+    "doc537.txt",
+    "doc98.txt",
+    "doc1303.txt",
+    "doc625.txt",
+    "doc208.txt",
+    "doc394.txt",
+    "doc569.txt",
+    "doc540.txt",
+    "doc1229.txt",
+    "doc1188.txt",
+    "doc423.txt",
+    "doc1200.txt",
+    "doc573.txt",
+    "doc570.txt",
+    "doc26.txt",
+    "doc1395.txt",
+    "doc577.txt",
+    "doc19.txt",
+    "doc359.txt",
+    "doc1078.txt",
+    "doc128.txt",
+    "doc1253.txt",
+    "doc329.txt",
+    "doc305.txt",
+    "doc310.txt",
+    "doc663.txt",
+    "doc449.txt",
+    "doc298.txt"
+  ],
+  "doc799.txt": [
+    "doc652.txt",
+    "doc280.txt",
+    "doc1106.txt",
+    "doc244.txt",
+    "doc1062.txt",
+    "doc1074.txt",
+    "doc520.txt",
+    "doc252.txt",
+    "doc235.txt",
+    "doc631.txt",
+    "doc430.txt",
+    "doc1367.txt",
+    "doc141.txt",
+    "doc800.txt",
+    "doc622.txt",
+    "doc795.txt",
+    "doc1215.txt",
+    "doc38.txt",
+    "doc608.txt",
+    "doc184.txt",
+    "doc594.txt",
+    "doc1153.txt",
+    "doc610.txt",
+    "doc203.txt",
+    "doc206.txt",
+    "doc212.txt",
+    "doc548.txt",
+    "doc1155.txt",
+    "doc602.txt",
+    "doc429.txt",
+    "doc1154.txt",
+    "doc1142.txt",
+    "doc511.txt",
+    "doc672.txt",
+    "doc316.txt",
+    "doc1324.txt",
+    "doc1287.txt",
+    "doc503.txt",
+    "doc1095.txt",
+    "doc311.txt",
+    "doc1094.txt",
+    "doc516.txt",
+    "doc264.txt",
+    "doc714.txt",
+    "doc1323.txt",
+    "doc53.txt"
+  ],
+  "doc7.txt": [
+    "doc135.txt",
+    "doc337.txt",
+    "doc293.txt",
+    "doc324.txt",
+    "doc8.txt",
+    "doc180.txt",
+    "doc142.txt",
+    "doc1205.txt",
+    "doc1211.txt",
+    "doc418.txt",
+    "doc182.txt",
+    "doc1212.txt",
+    "doc187.txt",
+    "doc796.txt",
+    "doc996.txt",
+    "doc1381.txt",
+    "doc1220.txt",
+    "doc629.txt",
+    "doc18.txt",
+    "doc505.txt",
+    "doc43.txt",
+    "doc80.txt",
+    "doc710.txt",
+    "doc40.txt",
+    "doc314.txt",
+    "doc1325.txt",
+    "doc315.txt",
+    "doc96.txt",
+    "doc41.txt",
+    "doc1278.txt",
+    "doc79.txt",
+    "doc675.txt",
+    "doc338.txt",
+    "doc933.txt",
+    "doc272.txt"
+  ],
+  "doc1170.txt": [
+    "doc860.txt",
+    "doc1064.txt",
+    "doc287.txt",
+    "doc1089.txt",
+    "doc1166.txt",
+    "doc143.txt",
+    "doc1167.txt",
+    "doc1165.txt",
+    "doc1164.txt",
+    "doc237.txt",
+    "doc810.txt",
+    "doc804.txt",
+    "doc768.txt",
+    "doc224.txt",
+    "doc1163.txt",
+    "doc1177.txt",
+    "doc1162.txt",
+    "doc782.txt",
+    "doc1219.txt",
+    "doc215.txt",
+    "doc1032.txt",
+    "doc1144.txt",
+    "doc1169.txt",
+    "doc1168.txt",
+    "doc896.txt",
+    "doc1090.txt",
+    "doc1091.txt",
+    "doc92.txt",
+    "doc925.txt"
+  ],
+  "doc368.txt": [
+    "doc451.txt",
+    "doc532.txt",
+    "doc290.txt",
+    "doc792.txt",
+    "doc357.txt",
+    "doc813.txt",
+    "doc638.txt",
+    "doc834.txt",
+    "doc32.txt",
+    "doc367.txt",
+    "doc1340.txt",
+    "doc748.txt",
+    "doc1291.txt",
+    "doc510.txt",
+    "doc715.txt"
+  ],
+  "doc818.txt": [
+    "doc486.txt",
+    "doc867.txt",
+    "doc751.txt",
+    "doc817.txt",
+    "doc1015.txt",
+    "doc1027.txt",
+    "doc823.txt",
+    "doc820.txt",
+    "doc1025.txt",
+    "doc819.txt",
+    "doc825.txt",
+    "doc824.txt",
+    "doc840.txt",
+    "doc1119.txt",
+    "doc1136.txt",
+    "doc853.txt",
+    "doc1121.txt",
+    "doc1120.txt"
+  ],
+  "doc1306.txt": [
+    "doc1110.txt",
+    "doc122.txt",
+    "doc48.txt",
+    "doc907.txt",
+    "doc1262.txt",
+    "doc333.txt",
+    "doc657.txt",
+    "doc1213.txt",
+    "doc814.txt",
+    "doc1206.txt",
+    "doc1148.txt",
+    "doc225.txt",
+    "doc605.txt",
+    "doc1192.txt",
+    "doc1285.txt",
+    "doc1084.txt",
+    "doc1308.txt",
+    "doc1309.txt"
+  ],
+  "doc454.txt": [
+    "doc257.txt",
+    "doc644.txt",
+    "doc863.txt",
+    "doc1063.txt",
+    "doc1049.txt",
+    "doc736.txt",
+    "doc1370.txt",
+    "doc424.txt",
+    "doc1398.txt",
+    "doc1399.txt",
+    "doc425.txt",
+    "doc551.txt",
+    "doc582.txt",
+    "doc393.txt",
+    "doc392.txt",
+    "doc1079.txt",
+    "doc1251.txt",
+    "doc664.txt",
+    "doc1055.txt"
+  ],
+  "doc1133.txt": [
+    "doc1070.txt",
+    "doc888.txt",
+    "doc1116.txt",
+    "doc938.txt",
+    "doc1129.txt",
+    "doc1358.txt",
+    "doc1359.txt",
+    "doc419.txt",
+    "doc838.txt",
+    "doc1360.txt",
+    "doc1176.txt",
+    "doc1178.txt",
+    "doc1031.txt",
+    "doc1357.txt",
+    "doc1087.txt",
+    "doc1130.txt",
+    "doc1125.txt",
+    "doc1132.txt",
+    "doc1293.txt",
+    "doc1041.txt"
+  ],
+  "doc711.txt": [
+    "doc727.txt",
+    "doc708.txt",
+    "doc709.txt",
+    "doc911.txt",
+    "doc815.txt",
+    "doc1379.txt",
+    "doc1392.txt",
+    "doc1218.txt",
+    "doc1380.txt",
+    "doc713.txt",
+    "doc712.txt",
+    "doc1127.txt",
+    "doc857.txt",
+    "doc894.txt",
+    "doc658.txt",
+    "doc728.txt",
+    "doc1097.txt"
+  ],
+  "doc1257.txt": [
+    "doc1264.txt",
+    "doc913.txt",
+    "doc534.txt",
+    "doc619.txt",
+    "doc618.txt",
+    "doc183.txt",
+    "doc620.txt",
+    "doc621.txt",
+    "doc995.txt",
+    "doc1150.txt",
+    "doc616.txt",
+    "doc617.txt",
+    "doc614.txt",
+    "doc471.txt",
+    "doc504.txt",
+    "doc466.txt",
+    "doc113.txt"
+  ],
+  "doc495.txt": [
+    "doc296.txt",
+    "doc1304.txt",
+    "doc334.txt",
+    "doc308.txt",
+    "doc654.txt",
+    "doc327.txt",
+    "doc508.txt",
+    "doc1238.txt",
+    "doc209.txt",
+    "doc28.txt",
+    "doc556.txt",
+    "doc572.txt",
+    "doc1356.txt",
+    "doc1369.txt",
+    "doc370.txt",
+    "doc1327.txt",
+    "doc262.txt",
+    "doc506.txt",
+    "doc304.txt",
+    "doc307.txt",
     "doc1242.txt"
+  ],
+  "doc492.txt": [
+    "doc469.txt",
+    "doc354.txt",
+    "doc234.txt",
+    "doc1005.txt",
+    "doc1000.txt",
+    "doc233.txt",
+    "doc434.txt",
+    "doc1231.txt",
+    "doc567.txt",
+    "doc759.txt",
+    "doc1347.txt",
+    "doc373.txt",
+    "doc947.txt",
+    "doc57.txt",
+    "doc56.txt",
+    "doc69.txt",
+    "doc275.txt",
+    "doc688.txt",
+    "doc1040.txt",
+    "doc717.txt"
+  ],
+  "doc969.txt": [
+    "doc1288.txt",
+    "doc974.txt",
+    "doc973.txt",
+    "doc806.txt",
+    "doc1345.txt",
+    "doc773.txt",
+    "doc1346.txt",
+    "doc1391.txt",
+    "doc613.txt",
+    "doc1195.txt",
+    "doc210.txt",
+    "doc103.txt",
+    "doc85.txt"
   ]
 }
