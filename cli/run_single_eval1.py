@@ -14,7 +14,7 @@ from src.evaluator import precision_at_k, recall_at_k
 # === Load query and relevant documents ===
 query_file = "queries/query1.txt"
 relevant_file = "results/query1_relevant.txt"
-top_k = 50
+top_k = 20
 
 with open(query_file, "r") as f:
     query = f.read().strip()
