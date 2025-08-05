@@ -163,7 +163,7 @@ def search_with_pseudo_feedback(query_vector, top_k=5, pseudo_k=3):
     pseudo_relevant_docs = [doc for doc, score in initial_results if score > 0]
 
     # Step 2: Refine query
-    updated_query_vector = relevance_feedback.rocchio_feedback(query_vector, pseudo_relevant_docs, DOC_VECTORS)
+    updated_query_vector = relevance_feedback.rocchio_feedback(query_vector, pseudo_relevant_docs, DOC_VECTORS,non_relevant_docs=None)
 
     # Step 3: Rank again using updated query
     return rank_documents(updated_query_vector, DOC_VECTORS, top_k)
