@@ -144,11 +144,11 @@ def rank_with_impact_ordering(query_vector, top_k=5):
 
 
 #====MANUAL RELEVANCE FEEDBACK====REQUIRES KNOWN RELEVANT DOCS#
-def search_with_feedback(query_vector, relevant_docs, top_k=5):
+def search_with_feedback(query_vector, relevant_docs, top_k=5, non_relevant_docs=None):
     """
     Manual Rocchio feedback based on user-marked relevant documents.
     """
-    updated_query_vector = relevance_feedback.rocchio_feedback(query_vector, relevant_docs, DOC_VECTORS)
+    updated_query_vector = relevance_feedback.rocchio_feedback(query_vector, relevant_docs, DOC_VECTORS,non_relevant_docs=non_relevant_docs)
     return rank_documents(updated_query_vector, DOC_VECTORS, top_k)
 
 
@@ -207,11 +207,16 @@ def search(query, top_k=5, method="basic"):
         print("\nMark relevant documents (comma-separated list of doc IDs, e.g., doc2.txt,doc5.txt):")
         feedback_input = input("Relevant documents: ").strip()
         relevant_docs = [doc.strip() for doc in feedback_input.split(",") if doc.strip() in dict(top_results)]
+
+        print("Mark non-relevant documents (comma-separated list of doc IDs, or press Enter to skip):")
+        nonrel_input = input("Non-relevant documents: ").strip()
+        non_relevant_docs = [doc.strip() for doc in nonrel_input.split(",") if doc.strip() in dict(top_results)]
+
         if not relevant_docs:
             print("No relevant documents selected. Using original results.")
             return top_results
 
-        return search_with_feedback(query_vector, relevant_docs, top_k)
+        return search_with_feedback(query_vector, relevant_docs, top_k,non_relevant_docs)
     elif method == "pseudo":
         return search_with_pseudo_feedback(query_vector, top_k)
     else:

@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import math
 from collections import defaultdict
 import random
 
@@ -64,7 +65,8 @@ def main():
     print("Building cluster pruning leaders and followers...")
     random.seed(42)
     doc_names = list(tfidf_vectors.keys())
-    num_leaders = max(1, len(doc_names) // 3)
+    #num_leaders = max(1, len(doc_names) // 3)
+    num_leaders=int(math.sqrt(len(doc_names)))
     leaders = random.sample(doc_names, num_leaders)
     leader_followers = defaultdict(list)
 
