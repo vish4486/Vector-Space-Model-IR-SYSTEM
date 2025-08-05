@@ -1,5 +1,9 @@
 import re
 import os
+import nltk
+from nltk.stem import PorterStemmer
+
+stemmer = PorterStemmer()
 
 def load_stopwords(path="data/stopwords.txt"):
     """
@@ -33,12 +37,20 @@ def remove_stopwords(tokens):
     """
     return [token for token in tokens if token not in STOPWORDS]
 
+
+def stem_tokens(tokens):
+    return [stemmer.stem(token) for token in tokens]
+
+# And update preprocess_text:
 def preprocess_text(text):
     """
     Complete preprocessing pipeline:
     - Tokenization
     - Stopword removal
+    - Stemming
     Returns a list of cleaned tokens.
     """
     tokens = tokenize(text)
-    return remove_stopwords(tokens)
+    tokens = remove_stopwords(tokens)
+    tokens = stem_tokens(tokens) 
+    return tokens

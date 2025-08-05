@@ -28,6 +28,8 @@ Vector-Space-Model-IR-SYSTEM/
 │   ├── run_query.py            # CLI search interface
 │   ├── run_evaluation.py       # Batch evaluation with metrics
 │   ├── run_single_eval.py      # One-query performance and timing comparison
+│   ├── run_single_eval1.py     # Revised One-query performance and timing comparison with PR curve plots
+
 
 ├── webapp/
 │   └── app.py                      # Streamlit search UI
@@ -82,11 +84,11 @@ Evaluate all methods on Cranfield relevance data:
 ```
 python cli/run_evaluation.py
 ```
-Or evaluate a single query and compare all methods and see the timing plots
+Or evaluate a single query and compare all methods and see the timing plots and PR curve
 Saved as: plots/query_time_comparison.png
 
 ```
-python cli/run_single_eval.py
+python cli/run_single_eval1.py
 ```
 ---
 

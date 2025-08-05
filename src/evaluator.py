@@ -2,36 +2,102 @@ import os
 import json
 from collections import defaultdict
 
+
 # ==== Precision@k ====
 def precision_at_k(retrieved_docs, relevant_docs, k):
-    """
-    Compute precision at cutoff k:
-    Precision = (relevant retrieved) / (k)
-    """
-    retrieved_k = retrieved_docs[:k]
-    relevant_set = set(relevant_docs)
+    retrieved_k = [doc.lower().strip() for doc in retrieved_docs[:k]]
+    relevant_set = set(doc.lower().strip() for doc in relevant_docs)
     true_positives = len([doc for doc in retrieved_k if doc in relevant_set])
-    return true_positives / k
+    return true_positives / k if k else 0.0
+
 
 # ==== Recall@k ====
 def recall_at_k(retrieved_docs, relevant_docs, k):
-    """
-    Compute recall at cutoff k:
-    Recall = (relevant retrieved) / (total relevant)
-    """
-    relevant_set = set(relevant_docs)
-    retrieved_k = retrieved_docs[:k]
+    retrieved_k = [doc.lower().strip() for doc in retrieved_docs[:k]]
+    relevant_set = set(doc.lower().strip() for doc in relevant_docs)
+    if not relevant_set:
+        return 0.0
     true_positives = len([doc for doc in retrieved_k if doc in relevant_set])
-    return true_positives / len(relevant_set) if relevant_set else 0.0
+    return true_positives / len(relevant_set)
+
 
 # ==== F1@k ====
 def f1_at_k(prec, rec):
-    """
-    Compute harmonic mean of precision and recall.
-    """
     if prec + rec == 0:
         return 0.0
     return 2 * (prec * rec) / (prec + rec)
+
+# ==== Precision-Recall Curve ====
+def precision_recall_curve(retrieved_docs, relevant_docs):
+    relevant_set = set(relevant_docs)
+    precisions = []
+    recalls = []
+    true_positives = 0
+
+    for i, doc in enumerate(retrieved_docs):
+        if doc in relevant_set:
+            true_positives += 1
+        prec = true_positives / (i + 1)
+        rec = true_positives / len(relevant_set)
+        precisions.append(prec)
+        recalls.append(rec)
+
+    return precisions, recalls
+
+# ==== 11-Point Interpolated Precision ====
+def eleven_point_interpolated_precision(precisions, recalls):
+    interpolated = []
+    for recall_level in [i / 10 for i in range(11)]:
+        max_prec = max([p for p, r in zip(precisions, recalls) if r >= recall_level], default=0.0)
+        interpolated.append(max_prec)
+    return interpolated
+
+# ==== Average Precision (for MAP) ====
+def average_precision(retrieved_docs, relevant_docs):
+    relevant_set = set(relevant_docs)
+    hits = 0
+    precision_sum = 0.0
+
+    for i, doc in enumerate(retrieved_docs):
+        if doc in relevant_set:
+            hits += 1
+            precision_sum += hits / (i + 1)
+
+    return precision_sum / len(relevant_set) if relevant_set else 0.0
+
+# ==== R-Precision ====
+def r_precision(retrieved_docs, relevant_docs):
+    R = len(relevant_docs)
+    return precision_at_k(retrieved_docs, relevant_docs, k=R)
+
+# ==== Main Evaluation Logic for One Query ====
+def evaluate_query(query_id, query_text, relevant_docs, search_fn, method, k=5):
+    retrieved = search_fn(query_text, top_k=k, method=method)
+    retrieved_docs = [doc for doc, score in retrieved]
+
+    prec = precision_at_k(retrieved_docs, relevant_docs, k)
+    rec = recall_at_k(retrieved_docs, relevant_docs, k)
+    f1 = f1_at_k(prec, rec)
+    ap = average_precision(retrieved_docs, relevant_docs)
+    rprec = r_precision(retrieved_docs, relevant_docs)
+    pr_curve, rc_curve = precision_recall_curve(retrieved_docs, relevant_docs)
+    interp_prec = eleven_point_interpolated_precision(pr_curve, rc_curve)
+
+    return {
+        "query": query_text,
+        "method": method,
+        "precision": round(prec, 4),
+        "recall": round(rec, 4),
+        "f1": round(f1, 4),
+        "average_precision": round(ap, 4),
+        "r_precision": round(rprec, 4),
+        "retrieved_docs": retrieved_docs,
+        "relevant_docs": relevant_docs,
+        "precision_curve": pr_curve,
+        "recall_curve": rc_curve,
+        "interpolated_precision": interp_prec
+    }
+
 
 # ==== Main Evaluation Logic for One Query ====
 def evaluate_query(query_id, query_text, relevant_docs, search_fn, method, k=5):
